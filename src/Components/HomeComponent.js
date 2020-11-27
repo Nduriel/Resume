@@ -1,20 +1,22 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
-import { mePic } from "./common/images/photos";
 
 function Home() {
   return (
-    <>
-      <Jumbotron>
-        <Container fluid>
-          <Row>
-            <Col lg={6}>
-              <Media object alt="Me" src={mePic} />
-            </Col>
-          </Row>
-        </Container>
-      </Jumbotron>
-    </>
+    <Jumbotron id="main" fluid>
+      <Container fluid>
+        <Row>
+          <Col lg={6} md={6} sm={6}>
+            <Media object src={"./images/Me.jpg"} alt="Me" />
+
+            <p>
+              Hello! My Name is Jean-Eric Pierre-Louis and I am a United States
+              Marine Corps Veteran and Web Developer.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </Jumbotron>
   );
 }
 

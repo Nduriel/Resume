@@ -1,19 +1,21 @@
 import React from "react";
-// import { Switch, Route, Redirect } from "react-router-dom";
-import Footer from "./common/Footer";
+import { Switch, Route } from "react-router-dom";
 import Home from "./HomeComponent";
+import FooterComponent from "./common/FooterComponent";
+import NavbarComponent from "./common/NavbarComponent";
 
 function MainComponent() {
   const HomePage = () => {
-   return <Home />;
+    return <Home />;
   };
   return (
-    <>
-      <div>
-        <HomePage />
-        <Footer />
-      </div>
-    </>
+    <div>
+      <NavbarComponent />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+      </Switch>
+      <FooterComponent />
+    </div>
   );
 }
 
