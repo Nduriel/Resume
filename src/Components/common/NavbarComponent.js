@@ -24,7 +24,9 @@ function NavbarComponent() {
           <Collapse isOpen={isOpen} navbar id="responsive-navbar-nav">
             <Nav navbar>
               <NavItem>
-                <NavLink style={navStyle} href="/home">Home</NavLink>
+                <NavLink style={navStyle} href="/home">
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={navStyle} href="/WorkExperience">
@@ -32,7 +34,9 @@ function NavbarComponent() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={navStyle} href="/PersonalInfo">Personal Info</NavLink>
+                <NavLink style={navStyle} href="/PersonalInfo">
+                  Personal Info
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -43,7 +47,7 @@ function NavbarComponent() {
 }
 const navStyle = {
   color: "white",
-  textShadow: "1px 1px black"
+  textShadow: "1px 1px black",
 };
 
 export default NavbarComponent;

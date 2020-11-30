@@ -23,9 +23,9 @@ function MainComponent() {
     <div>
       <NavbarComponent />
       <Switch>
-        <Route exact path="/home" component={HomePage} />
-        <Route exact path="/WorkExperience" component={Resume} />
-        <Route exact path="/PersonalInfo" component={Biography} />
+        <Route exact path="/" component={HomePage} />
+        <Route path="/WorkExperience" component={Resume} />
+        <Route path="/PersonalInfo" component={Biography} />
       </Switch>
       <FooterComponent />
     </div>
