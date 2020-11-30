@@ -4,16 +4,15 @@ import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
 function WorkExperience() {
   return (
     <Jumbotron id="main" fluid>
-      <h4 className="text-center" id="top">
+      <h5 className="text-center" id="top">
         <a href="#WorkExp">Work Experience</a> -{" "}
         <a href="#Education">Education</a> -{" "}
         <a href="#Honors">Honors and Awards</a>
-      </h4>
+      </h5>
       <Container fluid>
-        <h1 className="text-center">
+        <h1 className="text-center" style={{marginBottom: "5rem"}}>
           <u id="WorkExp">Work Experience</u>
         </h1>
-        <br />
         <Row style={resume}>
           <Col>
             <ul>
@@ -309,7 +308,7 @@ function WorkExperience() {
 
 const resume = {
   marginTop: "5px",
-  marginBottom: "5px",
+  marginBottom: "2rem",
 };
 
 const logoSize = {

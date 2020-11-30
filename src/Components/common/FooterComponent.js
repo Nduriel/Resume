@@ -29,32 +29,30 @@ function FooterComponent() {
             </div>
           </Col>
           <Col className="text-center" xs={6} sm={6} lg={6}>
-            <ul className="list-unstyled">
-              <li>You can reach my by: </li>
-              <li>
-                {" "}
-                <a
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="mailto:aros0885@gmail.com"
-                >
-                  <i className="fa fa-envelope" />
-                </a>
-              </li>
-              <li>
-                <a
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="tel:+7575750080"
-                >
-                  <i className="fa fa-phone fa-lg" />
-                </a>
-              </li>
-            </ul>
+            <span style={{ fontSize: "18px" }}>You can reach my by: </span><br />
+            <span>
+              {" "}
+              <a
+                role="button"
+                className="btn btn-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="tel:+7575750080"
+                style={{ color: "white" }}
+              >
+                <i className="fa fa-phone fa-lg" />
+              </a>
+              <a
+                role="button"
+                className="btn btn-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:aros0885@gmail.com"
+                style={{ color: "white" }}
+              >
+                <i className="fa fa-envelope" />
+              </a>
+            </span>
           </Col>
         </Row>
       </Container>
