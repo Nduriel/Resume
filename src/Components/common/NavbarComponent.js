@@ -1,30 +1,49 @@
 import React, { useState } from "react";
-import { Navbar, NavItem, Nav, Collapse, NavLink, Container } from "reactstrap";
+import {
+  Navbar,
+  NavItem,
+  Nav,
+  Collapse,
+  NavLink,
+  Container,
+  NavbarToggler,
+} from "reactstrap";
 
 function NavbarComponent() {
-  const [collapsed, setCollapsed] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen((isOpen) => !isOpen);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
   return (
     <div>
-      <Navbar color="faded" expand="md"  classticky="top" light>
+      <Navbar id="navBar" light collapseOnSelect expand="md" classticky="top">
         <Container fluid>
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink href="/components/">Bio</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Work Experience
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+          <NavbarToggler
+            onClick={toggle}
+            aria-controls="responsive-navbar-nav"
+          />
+          <Collapse isOpen={isOpen} navbar id="responsive-navbar-nav">
+            <Nav navbar>
+              <NavItem>
+                <NavLink style={navStyle} href="/home">Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink style={navStyle} href="/WorkExperience">
+                  Work Experience
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink style={navStyle} href="/PersonalInfo">Personal Info</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
         </Container>
       </Navbar>
     </div>
   );
 }
+const navStyle = {
+  color: "white",
+  textShadow: "1px 1px black"
+};
 
 export default NavbarComponent;

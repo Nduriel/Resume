@@ -2,6 +2,27 @@
   background-color: #282c34;
   color: white;
   height: 100%;
+  margin: auto;
 }
 
+.infobox {
+  margin: 2rem;
+  text-shadow: 1px 1px black;
+}
 
+#navBar {
+  background-color: gray;
+}
+
+.site-footer {
+  color: whitesmoke;
+  background-color: gray;
+  flex-direction: row;
+  white-space: nowrap;
+  font-size: 14px;
+  margin: auto;
+  padding: 15px;
+  border-top-style: ridge;
+  border-top: 5px solid lightgray;
+  text-shadow: 1px 1px black;
+}
