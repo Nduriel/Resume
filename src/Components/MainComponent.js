@@ -1,8 +1,8 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./HomeComponent";
-import WorkExperience from './WorkExperience';
-import PersonalInfo from './PersonalInfo';
+import WorkExperience from "./WorkExperience";
+import PersonalInfo from "./PersonalInfo";
 import FooterComponent from "./common/FooterComponent";
 import NavbarComponent from "./common/NavbarComponent";
 
@@ -26,6 +26,7 @@ function MainComponent() {
         <Route exact path="/" component={HomePage} />
         <Route path="/WorkExperience" component={Resume} />
         <Route path="/PersonalInfo" component={Biography} />
+        <Redirect to="/" />
       </Switch>
       <FooterComponent />
     </div>
