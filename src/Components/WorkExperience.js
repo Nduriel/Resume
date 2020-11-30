@@ -1,16 +1,26 @@
 import React from "react";
-import { Jumbotron, Container, Row, Col } from "reactstrap";
+import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
 
 function WorkExperience() {
   return (
     <Jumbotron id="main" fluid>
+      <h4 className="text-center" id="top">
+        <a href="#WorkExp">Work Experience</a> -{" "}
+        <a href="#Education">Education</a> -{" "}
+        <a href="#Honors">Honors and Awards</a>
+      </h4>
       <Container fluid>
         <h1 className="text-center">
-          <u>Work Experience</u>
+          <u id="WorkExp">Work Experience</u>
         </h1>
+        <br />
         <Row style={resume}>
           <Col>
             <ul>
+              <Media
+                src="../images/auxiliarysystems.jpg"
+                style={logoSize.nucamp}
+              />
               <h2>Auxiliary Systems Inc.</h2>
               <i>
                 <h5>Outside Machinist</h5> (07/2018 - 08/2019)
@@ -61,6 +71,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
+              <Media src="../images/farmfresh.png" style={logoSize.nucamp} />
               <h3>Farm Fresh Supermarkets</h3>
               <i>
                 <h5>Assistant Grocery Manager</h5>
@@ -171,6 +182,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
+              <Media src="../images/usmclogo.png" style={logoSize.nucamp} />
               <h3>United States Marine Corps</h3>
               <i>
                 <h5>Combat Engineer 1371</h5>{" "}
@@ -179,11 +191,117 @@ function WorkExperience() {
               <br />
               (02/2006 - 02/2012)
               <li>
-               Functioned as a Squard Leader, Fireteam Leader and a Breaching Instructor.
+                Functioned as a Squad Leader, Fireteam Leader and a Breaching
+                Instructor.
+              </li>
+              <li>
+                Used visual methods and mine detectors to identify and locate
+                mines, effectively detonating enemy threats.
+              </li>
+              <li>Located and neutralized various types of mines and IEDs.</li>
+              <li>
+                Trained and instructed subordinates and supported units on
+                engineer training.
+              </li>
+              <li>
+                Installed and recovered anti-handing devices on anti-tank mines
+                and electrical and non-electrical demolition charges.
+              </li>
+              <li>
+                Made roads, bridges and ferries safe for travel by conducting
+                ground reconnaissance and reporting back to Platoon Sergeant.
+              </li>
+              <li>
+                Supervised minefield installation and removal, notifying
+                superiors with consistent updated information.
+              </li>
+              <li>
+                Developed top talent by leading training initiatives for combat
+                preparation.
+              </li>
+              <li>
+                Completed dozens of patrols of assigned areas within operations
+                areas during Operation Iraqi Freedom.
+              </li>
+              <li>
+                Instructed personnel on ways to reduce environmental hazards and
+                proper use of PPE.
               </li>
             </ul>
           </Col>
         </Row>
+      </Container>
+      <Container fluid id="Education">
+        <h1 className="text-center">
+          <u>Education</u>{" "}
+          <a href="#top" aria-hidden="true">
+            <sub style={{ fontSize: "15px" }}>
+              <i class="fa fa-arrow-up" />
+            </sub>
+          </a>
+          <br />
+          <br />
+        </h1>
+        <Row style={resume}>
+          <Col>
+            <ul>
+              <Media src="../images/nucamplogo.png" style={logoSize.nucamp} />
+              <i>
+                <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
+              </i>
+              Online Eastern <br />
+              (08/2019 - 04/2020)
+              <br />
+              &nbsp;<u>Courses Completed:</u>
+              <li>HTML/CSS & JavaScript</li>
+              <li>Bootstrap</li>
+              <li>React</li>
+              <li>React Native</li>
+              <li>Node JS/MongoDB/Express</li>
+            </ul>
+          </Col>
+        </Row>
+        <br />
+        <Row style={resume}>
+          <Col>
+            <ul>
+              <Media src="../images/libertylogo.png" style={logoSize.nucamp} />
+              <i>
+                <h5>Biology Major with a French Minor</h5>
+              </i>
+              Lynchburg, VA
+              <br />
+              (2002 - 2005)
+            </ul>
+          </Col>
+        </Row>
+        <br />
+        <Row style={resume}>
+          <Col>
+            <ul>
+              <Media src="../images/greenrun.jpg" style={logoSize.nucamp} />
+              <i>
+                <h5>
+                  Green Run High School <br /> Advanced Diploma
+                </h5>
+              </i>
+              Virginia Beach, VA
+              <br />
+              (1998 - 2002)
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid id="Honors">
+        <h1 className="text-center">
+          Honors And Awards
+          <a href="#top" aria-hidden="true">
+            {" "}
+            <sub style={{ fontSize: "15px" }}>
+              <i class="fa fa-arrow-up" />
+            </sub>
+          </a>
+        </h1>{" "}
       </Container>
     </Jumbotron>
   );
@@ -192,5 +310,13 @@ function WorkExperience() {
 const resume = {
   marginTop: "5px",
   marginBottom: "5px",
+};
+
+const logoSize = {
+  nucamp: {
+    width: "200px",
+    height: "auto",
+    borderRadius: "1%",
+  },
 };
 export default WorkExperience;
