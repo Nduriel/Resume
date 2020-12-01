@@ -10,16 +10,13 @@ function WorkExperience() {
         <a href="#Honors">Honors and Awards</a>
       </h5>
       <Container fluid>
-        <h1 className="text-center" style={{marginBottom: "5rem"}}>
+        <h1 className="text-center" style={size.headerSpace}>
           <u id="WorkExp">Work Experience</u>
         </h1>
         <Row style={resume}>
           <Col>
             <ul>
-              <Media
-                src="../images/auxiliarysystems.jpg"
-                style={logoSize.nucamp}
-              />
+              <Media src="../images/auxiliarysystems.jpg" style={size.logo} />
               <h2>Auxiliary Systems Inc.</h2>
               <i>
                 <h5>Outside Machinist</h5> (07/2018 - 08/2019)
@@ -43,7 +40,7 @@ function WorkExperience() {
               </li>
               <li>
                 Calibrated machinery to optimize performance according to
-                prescribed standards and specific project needs.
+                prescribed logos and specific project needs.
               </li>
               <li>
                 {" "}
@@ -70,7 +67,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
-              <Media src="../images/farmfresh.png" style={logoSize.nucamp} />
+              <Media src="../images/farmfresh.png" style={size.logo} />
               <h3>Farm Fresh Supermarkets</h3>
               <i>
                 <h5>Assistant Grocery Manager</h5>
@@ -106,7 +103,7 @@ function WorkExperience() {
               </li>
               <li>
                 Maintained comprehensive compliance with workplace and food
-                safety standards to protect staff and customers.
+                safety logos to protect staff and customers.
               </li>
               <li>
                 Analyzed the store's inventory and ordered merchandise and
@@ -181,7 +178,10 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
-              <Media src="../images/usmclogo.png" style={logoSize.nucamp} />
+              <Media
+                src="../images/usmclogo.png"
+                style={{ width: "200px", height: "auto" }}
+              />
               <h3>United States Marine Corps</h3>
               <i>
                 <h5>Combat Engineer 1371</h5>{" "}
@@ -231,20 +231,18 @@ function WorkExperience() {
         </Row>
       </Container>
       <Container fluid id="Education">
-        <h1 className="text-center">
+        <h1 className="text-center" style={size.headerSpace}>
           <u>Education</u>{" "}
           <a href="#top" aria-hidden="true">
             <sub style={{ fontSize: "15px" }}>
               <i class="fa fa-arrow-up" />
             </sub>
           </a>
-          <br />
-          <br />
         </h1>
         <Row style={resume}>
           <Col>
             <ul>
-              <Media src="../images/nucamplogo.png" style={logoSize.nucamp} />
+              <Media src="../images/nucamplogo.png" style={size.logo} />
               <i>
                 <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
               </i>
@@ -264,9 +262,9 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
-              <Media src="../images/libertylogo.png" style={logoSize.nucamp} />
+              <Media src="../images/libertylogo.png" style={size.logo} />
               <i>
-                <h5>Biology Major with a French Minor</h5>
+                <h5>Biology Major <br/>French Minor</h5>
               </i>
               Lynchburg, VA
               <br />
@@ -278,7 +276,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
-              <Media src="../images/greenrun.jpg" style={logoSize.nucamp} />
+              <Media className="text-center"src="../images/greenrun.jpg" style={size.logo} />
               <i>
                 <h5>
                   Green Run High School <br /> Advanced Diploma
@@ -292,7 +290,7 @@ function WorkExperience() {
         </Row>
       </Container>
       <Container fluid id="Honors">
-        <h1 className="text-center">
+        <h1 className="text-center" style={size.headerSpace}>
           Honors And Awards
           <a href="#top" aria-hidden="true">
             {" "}
@@ -301,6 +299,24 @@ function WorkExperience() {
             </sub>
           </a>
         </h1>{" "}
+        <Row style={resume}>
+          <Col>
+            <ul>
+              <Media src="./images/trophy.png" alt="trophy" style={size.logo} />
+              <li>Corporal - United States Marine Corps</li>
+              <li>
+                CIRCOM (Certificate of Commendation) - United States Marine
+                Corps
+              </li>
+              <li>Dean's List - Liberty University 2003</li>
+              <li>
+                Nucamp Coding Bootcamp - React,
+                React Native, BootstrapNodeJS/Express/MongoDB,
+                JavaScript/HTML/CSS
+              </li>
+            </ul>
+          </Col>
+        </Row>
       </Container>
     </Jumbotron>
   );
@@ -311,11 +327,16 @@ const resume = {
   marginBottom: "2rem",
 };
 
-const logoSize = {
-  nucamp: {
+const size = {
+  logo: {
     width: "200px",
     height: "auto",
+    border: "3px solid grey",
+    borderStyle: "ridge",
     borderRadius: "1%",
+  },
+  headerSpace: {
+    marginBottom: "30px",
   },
 };
 export default WorkExperience;

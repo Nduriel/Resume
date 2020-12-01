@@ -8,7 +8,7 @@ function FooterComponent() {
         <Row>
           <Col className="text-center" xs={6} sm={6} lg={6}>
             <span style={{ fontSize: "20px" }}>Site-Map</span>
-            <div style={{ padding: "5px" }}>
+            <div style={{ padding: "0px" }}>
               <ul className="list-unstyled">
                 <li>
                   <a href="/home" style={{ color: "white" }}>
@@ -29,7 +29,8 @@ function FooterComponent() {
             </div>
           </Col>
           <Col className="text-center" xs={6} sm={6} lg={6}>
-            <span style={{ fontSize: "18px" }}>You can reach my by: </span><br />
+            <span style={{ fontSize: "18px" }}>You can reach my by: </span>
+            <br />
             <span>
               {" "}
               <a
@@ -51,6 +52,16 @@ function FooterComponent() {
                 style={{ color: "white" }}
               >
                 <i className="fa fa-envelope" />
+              </a>
+              <a
+                role="button"
+                className="btn btn-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/pierreprofile/"
+                style={{ color: "white" }}
+              >
+                <i className="fa fa-linkedin" />
               </a>
             </span>
           </Col>
