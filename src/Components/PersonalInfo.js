@@ -12,7 +12,7 @@ function PersonalInfo() {
                 <Media
                   object
                   style={size.image}
-                  src="./images/workout.jpg"
+                  src="./images/highschool.jpg"
                   alt="WorkoutPic"
                 />
               </Media>
@@ -35,7 +35,36 @@ function PersonalInfo() {
               </Media>
             </Media>
           </Col>
-          <Col></Col>
+        </Row>
+        <Row style={{ marginTop: "30px" }}>
+          <Col>
+            {" "}
+            <Media>
+              <Media style={{ paddingLeft: "15px" }} body>
+                <Media heading>Hobbies and Personal Life</Media>
+                <p>
+                  I enjoy going to the gym and working out 5 days week. To me,
+                  working out is an essential part my physical and mental
+                  health. When I am not working out or coding, I am usually
+                  enjoying watching Netflix shows or playing PlayStation.
+                </p>
+                <p>
+                  I enjoy travelling as well. So far, I have been to Slovakia,
+                  Budapest, France (2x), Niger Africa (2x), Cancun and Belize
+                  Mexico. I plan to visit Bratislava Slovakia in 2021 when the
+                  CoronaVirus pandemic is more under control.
+                </p>
+              </Media>
+              <Media right href="#">
+                <Media
+                  object
+                  style={size.image}
+                  src="./images/workout.jpg"
+                  alt="WorkoutPic"
+                />
+              </Media>
+            </Media>
+          </Col>
         </Row>
       </Container>
     </Jumbotron>
