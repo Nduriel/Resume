@@ -21,7 +21,7 @@
 
 #navBar {
   background-color: rgb(112, 112, 112);
-  height: 75px;
+  min-height: 75px;
   border-bottom-style: ridge;
   border-bottom: 5px solid lightgray;
   text-shadow: 1px 1px 1px black;
