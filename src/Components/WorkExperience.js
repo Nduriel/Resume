@@ -11,7 +11,7 @@ function WorkExperience() {
       </h5>
       <Container fluid>
         <h1 className="text-center" style={size.headerSpace}>
-          <u id="WorkExp">Work Experience</u>
+          Work Experience
         </h1>
         <Row style={resume}>
           <Col>
@@ -232,7 +232,7 @@ function WorkExperience() {
       </Container>
       <Container fluid id="Education">
         <h1 className="text-center" style={size.headerSpace}>
-          <u>Education</u>{" "}
+          Education{" "}
           <a href="#top" aria-hidden="true">
             <sub style={{ fontSize: "15px" }}>
               <i class="fa fa-arrow-up" />
@@ -264,7 +264,10 @@ function WorkExperience() {
             <ul>
               <Media src="../images/libertylogo.png" style={size.logo} />
               <i>
-                <h5>Biology Major <br/>French Minor</h5>
+                <h5>
+                  Biology Major <br />
+                  French Minor
+                </h5>
               </i>
               Lynchburg, VA
               <br />
@@ -276,7 +279,11 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <ul>
-              <Media className="text-center"src="../images/greenrun.jpg" style={size.logo} />
+              <Media
+                className="text-center"
+                src="../images/greenrun.jpg"
+                style={size.logo}
+              />
               <i>
                 <h5>
                   Green Run High School <br /> Advanced Diploma
@@ -310,9 +317,8 @@ function WorkExperience() {
               </li>
               <li>Dean's List - Liberty University 2003</li>
               <li>
-                Nucamp Coding Bootcamp - React,
-                React Native, BootstrapNodeJS/Express/MongoDB,
-                JavaScript/HTML/CSS
+                Nucamp Coding Bootcamp - React, React Native,
+                BootstrapNodeJS/Express/MongoDB, JavaScript/HTML/CSS
               </li>
             </ul>
           </Col>
@@ -337,6 +343,7 @@ const size = {
   },
   headerSpace: {
     marginBottom: "30px",
+    color: "goldenrod",
   },
 };
 export default WorkExperience;

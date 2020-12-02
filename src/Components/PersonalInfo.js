@@ -74,7 +74,7 @@ function PersonalInfo() {
 const size = {
   image: {
     width: "200px",
-    height: "auto",
+    height: "100%",
     border: "5px solid grey",
     borderStyle: "outset",
     boxShadow: "2px 2px 4px grey",

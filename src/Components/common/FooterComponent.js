@@ -7,7 +7,7 @@ function FooterComponent() {
       <Container fluid>
         <Row>
           <Col className="text-center" xs={6} sm={6} lg={6}>
-            <span style={{ fontSize: "20px" }}>Site-Map</span>
+            <span style={footerHeader}>Site-Map</span>
             <div style={{ padding: "0px" }}>
               <ul className="list-unstyled">
                 <li>
@@ -29,7 +29,7 @@ function FooterComponent() {
             </div>
           </Col>
           <Col className="text-center" xs={6} sm={6} lg={6}>
-            <span style={{ fontSize: "18px" }}>You can reach my by: </span>
+            <span style={footerHeader}>You can reach me by: </span>
             <br />
             <span>
               {" "}
@@ -70,5 +70,10 @@ function FooterComponent() {
     </footer>
   );
 }
+
+const footerHeader = {
+  fontSize: "20px",
+  borderBottom: "2px solid whitesmoke",
+};
 
 export default FooterComponent;

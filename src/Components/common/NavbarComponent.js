@@ -7,7 +7,7 @@ import {
   NavLink,
   Container,
   NavbarToggler,
-  NavbarBrand
+  NavbarBrand,
 } from "reactstrap";
 
 function NavbarComponent() {
@@ -21,7 +21,7 @@ function NavbarComponent() {
           <NavbarToggler
             onClick={toggle}
             aria-controls="responsive-navbar-nav"
-            />
+          />
           <Collapse isOpen={isOpen} navbar id="responsive-navbar-nav">
             <Nav navbar>
               <NavItem>
@@ -41,7 +41,9 @@ function NavbarComponent() {
               </NavItem>
             </Nav>
           </Collapse>
-          <NavbarBrand style={navStyle.brand}>Jean-Eric Pierre-Louis</NavbarBrand>
+          <NavbarBrand style={navStyle.brand}>
+            Jean-Eric Pierre-Louis
+          </NavbarBrand>
         </Container>
       </Navbar>
     </div>
@@ -53,8 +55,8 @@ const navStyle = {
   brand: {
     fontStyle: "italic",
     color: "white",
-    textShadow: "2px 2px 1px black"
-  }
+    textShadow: "2px 2px 1px black",
+  },
 };
 
 export default NavbarComponent;
