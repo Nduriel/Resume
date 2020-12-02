@@ -1,33 +1,41 @@
 #main {
   background-color: #282c34;
   color: white;
-  height: 100%;
   margin: auto;
+  text-shadow: 1px 1px 1px grey;
 }
 
 .infobox {
   margin: 2rem;
   font-size: large;
-  text-shadow: 1px 1px 1px black;
 }
 
 #homePic {
-  width: auto;
+  max-width: 500px;
+  height: auto;
+  border: 5px solid white;
+  border-style: ridge;
+  border-radius: 50%/50%;
+  box-shadow: 3px 5px 5px gray;
 }
 
 #navBar {
-  background-color: gray;
+  background-color: rgb(112, 112, 112);
+  height: 75px;
+  border-bottom-style: ridge;
+  border-bottom: 5px solid lightgray;
+  text-shadow: 1px 1px 1px black;
 }
 
 .site-footer {
   color: whitesmoke;
-  background-color: gray;
+  background-color: rgb(112, 112, 112);
   flex-direction: row;
   white-space: nowrap;
   font-size: 14px;
   margin: auto;
-  padding: 15px;
+  padding: 25px;
   border-top-style: ridge;
   border-top: 5px solid lightgray;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px 1px black;
 }

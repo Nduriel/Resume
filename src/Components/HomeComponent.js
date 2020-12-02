@@ -5,16 +5,16 @@ function Home() {
   return (
     <Jumbotron id="main" fluid>
       <Container fluid>
-        <Row>
-          <Col lg={5} md={12} sm={12}>
-            <Media id="homePic" object src={"./images/Me.jpg"} alt="Me" />
+        <Row style={{ alignItems: "center" }}>
+          <Col lg={5} md={12} sm={12} className="text-center">
+            <Media id="homePic" object src={"./images/Me1.jpg"} alt="Me" />
           </Col>
           <Col lg={6} md={12} sm={12}>
             <p className="infobox">
-              &nbsp;&nbsp;Hello! My Name is Jean-Eric Pierre-Louis "Pierre" and I am a
-              United States Marine Corps Veteran and Web Developer. This page
-              will help you get to know about me, my desires and my life! I hope
-              you enjoy!
+              &nbsp;&nbsp;Hello! My Name is Jean-Eric Pierre-Louis "Pierre" and
+              I am a United States Marine Corps Veteran and Web Developer. This
+              page will help you get to know about me, my desires and my life! I
+              hope you enjoy!
             </p>
             <p className="infobox">
               &nbsp;&nbsp;I am Full Stack Web Developer and recent graduate from
