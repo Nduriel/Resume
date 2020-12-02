@@ -11,6 +11,7 @@
 }
 
 #homePic {
+  width: 100%;
   max-width: 500px;
   height: auto;
   border: 5px solid white;
