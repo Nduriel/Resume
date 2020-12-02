@@ -40,7 +40,7 @@ function PersonalInfo() {
           <Col>
             {" "}
             <Media>
-              <Media style={{ paddingLeft: "15px" }} body>
+              <Media style={{ paddingRight: "15px" }} body>
                 <Media heading>Hobbies and Personal Life</Media>
                 <p>
                   I enjoy going to the gym and working out 5 days week. To me,
