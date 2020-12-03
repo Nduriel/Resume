@@ -47,6 +47,7 @@ function FooterComponent() {
                     <i className="fa fa-phone fa-lg" />
                   </a>
                 </li>
+                .
                 <li>
                   <a
                     role="button"
@@ -59,6 +60,7 @@ function FooterComponent() {
                     <i className="fa fa-envelope" />
                   </a>
                 </li>
+                .
                 <li>
                   <a
                     role="button"
@@ -82,6 +84,7 @@ function FooterComponent() {
 
 const footerHeader = {
   fontSize: "20px",
+  fontWeight: "bold",
   borderBottom: "2px solid whitesmoke",
 };
 

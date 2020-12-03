@@ -54,6 +54,7 @@ const navStyle = {
   textShadow: "1px 1px black",
   brand: {
     fontStyle: "italic",
+    fontWeight: "bold",
     color: "white",
     textShadow: "2px 2px 1px black",
   },
