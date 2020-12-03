@@ -25,17 +25,33 @@ function NavbarComponent() {
           <Collapse isOpen={isOpen} navbar id="responsive-navbar-nav">
             <Nav navbar>
               <NavItem>
-                <NavLink style={navStyle} href="/home">
+                <NavLink
+                  exact
+                  style={navStyle}
+                  activeStyle={activeStyle}
+                  href="/home"
+                  className="nav-link"
+                >
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={navStyle} href="/WorkExperience">
+                <NavLink
+                  style={navStyle}
+                  className="nav-link"
+                  activeStyle={activeStyle}
+                  href="/WorkExperience"
+                >
                   Work Experience
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={navStyle} href="/PersonalInfo">
+                <NavLink
+                  style={navStyle}
+                  activeStyle={activeStyle}
+                  href="/PersonalInfo"
+                  className="nav-link"
+                >
                   Personal Info
                 </NavLink>
               </NavItem>
@@ -58,6 +74,10 @@ const navStyle = {
     color: "white",
     textShadow: "2px 2px 1px black",
   },
+};
+
+const activeStyle = {
+  color: "goldenrod",
 };
 
 export default NavbarComponent;
