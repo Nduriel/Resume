@@ -249,12 +249,17 @@ function WorkExperience() {
               Online Eastern <br />
               (08/2019 - 04/2020)
               <br />
-              &nbsp;<u>Courses Completed:</u>
-              <li>HTML/CSS & JavaScript</li>
-              <li>Bootstrap</li>
-              <li>React</li>
-              <li>React Native</li>
-              <li>Node JS/MongoDB/Express</li>
+              <li>
+                <u>Courses Completed:</u>
+              </li>
+              <ul>
+                {" "}
+                <li>HTML/CSS & JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>Node JS/MongoDB/Express</li>
+              </ul>
             </ul>
           </Col>
         </Row>

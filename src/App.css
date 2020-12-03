@@ -43,3 +43,7 @@
   border-top-style: ridge;
   text-shadow: 1px 1px 1px black;
 }
+
+ul#footer li {
+  display: inline;
+}
