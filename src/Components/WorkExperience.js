@@ -22,10 +22,11 @@ function WorkExperience() {
               <Media body>
                 <ul>
                   <Media heading>
-                    <h2>Software Developer/ PHP Engineer</h2>
+                    <h2>Pierre&RadyLLC</h2>
                   </Media>
                   <i>
-                    <h5>Pierre&RadyLLC</h5> (08/2019 - Present)
+                    <h5>Software Developer/ PHP Engineer</h5> (08/2019 -
+                    Present)
                   </i>
                   <br />
                   Fort Lauderdale, Florida
