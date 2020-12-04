@@ -17,6 +17,50 @@ function WorkExperience() {
           <Col>
             <Media>
               <Media left href="#">
+                <Media src="../images/prlogo.png" object style={size.logo} />
+              </Media>
+              <Media body>
+                <ul>
+                  <Media heading>
+                    <h2>Software Developer/ PHP Engineer</h2>
+                  </Media>
+                  <i>
+                    <h5>Pierre&RadyLLC</h5> (08/2019 - Present)
+                  </i>
+                  <br />
+                  Fort Lauderdale, Florida
+                  <li>Full Stack WebDeveloper</li>
+                  <li>PHP Developer</li>
+                  <ul>
+                    <u>Websites Developed:</u>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://polishedBymia.com"
+                      >
+                        <i style={{ color: "#e60073" }}>Polished By Mia</i>
+                      </a>{" "}
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pierrenradyllc.netlify.app/"
+                      >
+                        <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </Media>
+            </Media>
+          </Col>
+        </Row>
+        <Row style={resume}>
+          <Col>
+            <Media>
+              <Media left href="#">
                 <Media
                   src="../images/auxiliarysystems.jpg"
                   object
