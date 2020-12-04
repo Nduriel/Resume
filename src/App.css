@@ -15,8 +15,9 @@
   width: 100%;
   max-width: 500px;
   height: auto;
-  border: 2px solid gold;
-  border-radius: 50%/50%;
+  border: 6px solid white;
+  border-style: ridge;
+  border-radius: 3%/3%;
   box-shadow: 10px 10px 10px rgb(37, 37, 37);
 }
 
