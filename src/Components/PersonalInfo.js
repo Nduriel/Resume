@@ -17,7 +17,7 @@ function PersonalInfo() {
                 />
               </Media>
               <Media style={{ paddingLeft: "15px" }} body>
-                <Media heading>Early Life</Media>
+                <Media heading><u>Early Life</u></Media>
                 <p>
                   My full name is Jean-Eric Andr'e Pierre-Louis and I was born
                   in Charleston, South Carolina. Around the age of 5, my family
@@ -38,10 +38,52 @@ function PersonalInfo() {
         </Row>
         <Row style={{ marginTop: "30px" }}>
           <Col>
-            {" "}
             <Media>
               <Media style={{ paddingRight: "15px" }} body>
-                <Media heading>Hobbies and Personal Life</Media>
+                <Media heading><u>Military Service</u></Media>
+                <p>
+                  On February 26, 2006 I enlisted in the United States Marine
+                  Corps. My primary MOS (Miliary Occupational Specialty) was
+                  1371, Combat Engineer. Combat Engineers' motto consisted of
+                  'Jack of All Trades, Master of None'. This means that while we
+                  have a working knowledge of most jobs, there is always room
+                  for improvement.
+                </p>
+                <p>
+                  In 2008, we were called to Operation Iraq Freedom 19 (OIF19).
+                  During this tour, I served as a Fireteam Leader and Squad
+                  Leader when needed. I was always sent to the 'Shadow Range'.
+                  The Shadow Range was an outpost outside of Al Asad, that
+                  served as a training post. During that time, myself and
+                  another Marine were tasked with training others on how to use
+                  demolition charges.
+                </p>
+              </Media>
+              <Media right href="#">
+                <Media
+                  object
+                  style={size.image}
+                  src="./images/Me.jpg"
+                  alt="usmcme"
+                />
+              </Media>
+            </Media>
+          </Col>
+        </Row>
+        <Row style={{ marginTop: "30px" }}>
+          <Col>
+            {" "}
+            <Media>
+              <Media left href="#">
+                <Media
+                  object
+                  style={size.image}
+                  src="./images/workout.jpg"
+                  alt="WorkoutPic"
+                />
+              </Media>
+              <Media style={{ paddingLeft: "15px" }} body>
+                <Media heading><u>Hobbies and Personal Life</u></Media>
                 <p>
                   I enjoy going to the gym and working out 5 days week. To me,
                   working out is an essential part my physical and mental
@@ -54,14 +96,6 @@ function PersonalInfo() {
                   Mexico. I plan to visit Bratislava Slovakia in 2021 when the
                   CoronaVirus pandemic is more under control.
                 </p>
-              </Media>
-              <Media right href="#">
-                <Media
-                  object
-                  style={size.image}
-                  src="./images/workout.jpg"
-                  alt="WorkoutPic"
-                />
               </Media>
             </Media>
           </Col>
