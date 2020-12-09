@@ -5,6 +5,15 @@ function PersonalInfo() {
   return (
     <Jumbotron fluid id="main">
       <Container fluid>
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginBottom: "40px",
+          }}
+        >
+          <Media id="youknow" src="./images/more-you-know.gif" />
+        </Row>
         <Row>
           <Col lg={12} md={12} sm={12} xs={12}>
             <Media>
@@ -17,7 +26,9 @@ function PersonalInfo() {
                 />
               </Media>
               <Media style={{ paddingLeft: "15px" }} body>
-                <Media heading><u>Early Life</u></Media>
+                <Media heading>
+                  <u>Early Life</u>
+                </Media>
                 <p>
                   My full name is Jean-Eric Andr'e Pierre-Louis and I was born
                   in Charleston, South Carolina. Around the age of 5, my family
@@ -40,7 +51,9 @@ function PersonalInfo() {
           <Col>
             <Media>
               <Media style={{ paddingRight: "15px" }} body>
-                <Media heading><u>Military Service</u></Media>
+                <Media heading>
+                  <u>Military Service</u>
+                </Media>
                 <p>
                   On February 26, 2006 I enlisted in the United States Marine
                   Corps. My primary MOS (Miliary Occupational Specialty) was
@@ -57,6 +70,10 @@ function PersonalInfo() {
                   served as a training post. During that time, myself and
                   another Marine were tasked with training others on how to use
                   demolition charges.
+                </p>
+                <p>
+                  I was honorably discharged in 2012 from 4th Combat Engineer
+                  Battalion, in Lynchburg Virginia.
                 </p>
               </Media>
               <Media right href="#">
@@ -83,7 +100,9 @@ function PersonalInfo() {
                 />
               </Media>
               <Media style={{ paddingLeft: "15px" }} body>
-                <Media heading><u>Hobbies and Personal Life</u></Media>
+                <Media heading>
+                  <u>Hobbies and Personal Life</u>
+                </Media>
                 <p>
                   I enjoy going to the gym and working out 5 days week. To me,
                   working out is an essential part my physical and mental

@@ -10,15 +10,19 @@
   margin: 2rem;
   font-size: large;
 }
+#youknow {
+  border: 3px solid rgba(255, 255, 255, 0.822);
+  border-style: ridge;
+  box-shadow: 4px 4px 10px grey;
+}
 
 #homePic {
   width: 100%;
   max-width: 500px;
   height: auto;
-  border: 6px solid white;
-  border-style: ridge;
-  border-radius: 3%/3%;
-  box-shadow: 10px 10px 10px rgb(37, 37, 37);
+  border: 5px solid blanchedalmond;
+  border-style: inset;
+  box-shadow: 4px 4px 10px white;
 }
 
 #navBar {

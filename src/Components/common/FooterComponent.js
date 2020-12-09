@@ -86,6 +86,7 @@ const footerHeader = {
   fontSize: "20px",
   fontWeight: "bold",
   borderBottom: "2px solid whitesmoke",
+  textShadow: "2px 2px 1px black",
 };
 
 export default FooterComponent;
