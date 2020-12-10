@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
-    "caniuse-lite": "^1.0.30001161",
+    "caniuse-lite": "^1.0.30001165",
     "font-awesome": "^4.7.0",
     "global": "^4.4.0",
     "popper": "^1.0.1",

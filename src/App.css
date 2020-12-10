@@ -14,15 +14,19 @@
   border: 3px solid rgba(255, 255, 255, 0.822);
   border-style: ridge;
   box-shadow: 4px 4px 10px grey;
+  width: auto;
+  max-width: 450px;
+  height: auto;
 }
 
 #homePic {
   width: 100%;
   max-width: 500px;
   height: auto;
-  border: 5px solid blanchedalmond;
-  border-style: inset;
-  box-shadow: 4px 4px 10px white;
+  border: 7px solid grey;
+  border-style: outset;
+  box-shadow: 5px 4px 10px black;
+  border-radius: 3%/3%;
 }
 
 #navBar {
@@ -35,8 +39,7 @@
 }
 
 .site-footer {
-  font-size: 18px;
-  color: whitesmoke;
+  color: white;
   background-color: rgb(112, 112, 112);
   flex-direction: row;
   white-space: nowrap;

@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import {
   Navbar,
-  NavItem,
   Nav,
-  Collapse,
-  NavLink,
-  Container,
   NavbarToggler,
+  Collapse,
   NavbarBrand,
+  NavItem,
+  Container,
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
+
+const activeStyle = {
+  color: "goldenrod",
+};
 
 function NavbarComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +31,10 @@ function NavbarComponent() {
               <NavItem>
                 <NavLink
                   exact
+                  to="/"
+                  onClick={toggle}
                   style={navStyle}
                   activeStyle={activeStyle}
-                  href="/home"
                   className="nav-link"
                 >
                   Home
@@ -37,19 +42,21 @@ function NavbarComponent() {
               </NavItem>
               <NavItem>
                 <NavLink
+                  onClick={toggle}
                   style={navStyle}
                   className="nav-link"
                   activeStyle={activeStyle}
-                  href="/WorkExperience"
+                  to="/WorkExperience"
                 >
                   Work Experience
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
+                  onClick={toggle}
                   style={navStyle}
                   activeStyle={activeStyle}
-                  href="/PersonalInfo"
+                  to="/PersonalInfo"
                   className="nav-link"
                 >
                   Personal Info
@@ -74,10 +81,6 @@ const navStyle = {
     color: "white",
     textShadow: "2px 2px 1px black",
   },
-};
-
-const activeStyle = {
-  color: "goldenrod",
 };
 
 export default NavbarComponent;

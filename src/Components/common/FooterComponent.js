@@ -7,24 +7,29 @@ function FooterComponent() {
       <Container fluid>
         <Row>
           <Col className="text-center" xs={5} md={6} sm={6} lg={6}>
-            <span style={footerHeader}>Site-Map</span>
             <div style={{ padding: "0px" }}>
               <ul className="list-unstyled">
-                <li>
-                  <a href="/home" style={{ color: "white" }}>
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/WorkExperience" style={{ color: "white" }}>
-                    Work Experience
-                  </a>
-                </li>
-                <li>
-                  <a href="/PersonalInfo" style={{ color: "white" }}>
-                    Personal Info
-                  </a>
-                </li>
+                <span style={footerHeader}>
+                  Site-Map
+                  <br />
+                </span>
+                <span>
+                  <li>
+                    <a href="/home" style={spacing}>
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/WorkExperience" style={spacing}>
+                      Work Experience
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/PersonalInfo" style={spacing}>
+                      Personal Info
+                    </a>
+                  </li>
+                </span>
               </ul>
             </div>
           </Col>
@@ -85,8 +90,15 @@ function FooterComponent() {
 const footerHeader = {
   fontSize: "20px",
   fontWeight: "bold",
-  borderBottom: "2px solid whitesmoke",
+  borderBottom: "4px solid darkgrey",
+  borderBottomStyle: "ridge",
   textShadow: "2px 2px 1px black",
+  color: "white",
+};
+
+const spacing = {
+  fontSize: "16px",
+  color: "white",
 };
 
 export default FooterComponent;
