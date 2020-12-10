@@ -54,3 +54,7 @@
 ul#footer li {
   display: inline;
 }
+
+#top {
+  margin-bottom: 50px;
+}

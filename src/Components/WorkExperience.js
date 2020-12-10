@@ -16,7 +16,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left href="#" style={size.logoSpacing}>
                 <Media src="../images/prlogo.png" object style={size.logo} />
               </Media>
               <Media body>
@@ -61,7 +61,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left href="#" style={size.logoSpacing}>
                 <Media
                   src="../images/auxiliarysystems.jpg"
                   object
@@ -124,7 +124,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left href="#" style={size.logoSpacing}>
                 <Media src="../images/farmfresh.png" style={size.logo} />
               </Media>
               <Media body>
@@ -200,7 +200,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left href="#" style={size.logoSpacing}>
                 <Media
                   src="../images/eastcoastcedarlogo.jpg"
                   style={size.logo}
@@ -256,7 +256,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left href="#" style={size.logoSpacing}>
                 <Media
                   src="../images/usmclogo.png"
                   style={{ width: "200px", height: "auto" }}
@@ -447,7 +447,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left>
                 <Media
                   src="./images/trophy.png"
                   alt="trophy"
@@ -493,6 +493,9 @@ const size = {
   headerSpace: {
     marginBottom: "30px",
     color: "goldenrod",
+  },
+  logoSpacing: {
+    marginTop: "70px",
   },
 };
 export default WorkExperience;
