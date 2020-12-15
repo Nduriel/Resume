@@ -1,6 +1,7 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
 import * as text from "./common/textinfo";
+import { Fade, Stagger } from "react-animation-components";
 
 function WorkExperience() {
   return (
@@ -14,33 +15,37 @@ function WorkExperience() {
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
-        {text.workExp.map((item) => {
-          return (
-            <Row style={resume}>
-              <Col>
-                <Media key={item.id}>
-                  <Media left style={size.logoSpacing}>
-                    <Media src={item.image} object style={size.logo} />
-                  </Media>
-                  <Media body>
-                    <ul>
-                      <Media heading>
-                        <h2>{item.title}</h2>
+        <Stagger in>
+          {text.workExp.map((item) => {
+            return (
+              <Fade>
+                <Row style={resume}>
+                  <Col>
+                    <Media key={item.id}>
+                      <Media left style={size.logoSpacing}>
+                        <Media src={item.image} object style={size.logo} />
                       </Media>
-                      <i>
-                        <h5>{item.position}</h5>
-                        {item.dates}
-                      </i>
-                      <br />
-                      {item.location}
-                    </ul>
-                    {item.experience}
-                  </Media>
-                </Media>
-              </Col>
-            </Row>
-          );
-        })}
+                      <Media body>
+                        <ul>
+                          <Media heading>
+                            <h2>{item.title}</h2>
+                          </Media>
+                          <i>
+                            <h5>{item.position}</h5>
+                            {item.dates}
+                          </i>
+                          <br />
+                          {item.location}
+                        </ul>
+                        {item.experience}
+                      </Media>
+                    </Media>
+                  </Col>
+                </Row>
+              </Fade>
+            );
+          })}
+        </Stagger>
       </Container>
       <Container fluid id="Education">
         <h1 className="text-center" style={size.headerSpace}>
@@ -126,7 +131,7 @@ function WorkExperience() {
                   style={size.logo}
                 />
               </Media>
-             {text.honors}
+              {text.honors}
             </Media>
           </Col>
         </Row>
