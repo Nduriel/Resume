@@ -103,3 +103,351 @@ export const hobbies = (
     </Media>
   </Media>
 );
+
+const prLLC = (
+  <ul>
+    <li>
+      Developed website for LLC which helps stay in contact with customers as
+      well as list our services.
+    </li>
+    <li>
+      Have created multiple PHP parsing programs that facilitate credit card
+      production.
+    </li>
+    <ul>
+      <u>Websites Developed:</u>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://polishedBymia.com"
+        >
+          <i style={{ color: "#e60073" }}>Polished By Mia</i>
+        </a>{" "}
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://pierrenradyllc.netlify.app/"
+        >
+          <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+        </a>
+      </li>
+    </ul>
+  </ul>
+);
+
+const aux = (
+  <ul>
+    <li>
+      Assistant Grocery Manager for two stores at the same time; Ghent and
+      Military Highway Stores.
+    </li>
+    <li>
+      Expertly filled roles such as cashier, stock crew, bookkeeper, sales &
+      service desk, customer service representative (CSR) and closing store
+      manager.
+    </li>
+    <li>
+      Assessed grocery store for cleanliness and checked proper stocking Summary
+      Skills Experience of shelves, refrigerated section and freezers.
+    </li>
+    <li>
+      Drove consistent grocery sales with effective merchandising and promotions
+      implementation.
+    </li>
+    <li>
+      Introduced grocery store employee incentive program to boost team morale.
+    </li>
+    <li>
+      Coordinated efficient restocking of grocery merchandise to meet customer
+      needs and promote consistent sales.
+    </li>
+    <li>
+      Maintained comprehensive compliance with workplace and food safety logos
+      to protect staff and customers.
+    </li>
+    <li>
+      Analyzed the store's inventory and ordered merchandise and products when
+      stock levels were low.
+    </li>
+    <li>
+      Maximized profit by coordinating efficient team workflows, minimizing
+      waste and controlling shrinkage.
+    </li>
+    <li>
+      Delivered expert customer service to all store patrons and assisted with
+      locating desired items.
+    </li>
+    <li>
+      Lead by example and took responsibility for all actions drive culture of
+      performance excellence.
+    </li>
+    <li>
+      Streamlined operational efficiencies by coordinating staff development and
+      succession planning.
+    </li>
+    <li>
+      Identified and solved complex strategy problems to drive organizational
+      goals.
+    </li>
+  </ul>
+);
+
+const ffresh = (
+  <ul>
+    {" "}
+    <li>
+      Assistant Grocery Manager for two stores at the same time; Ghent and
+      Military Highway Stores.
+    </li>
+    <li>
+      Expertly filled roles such as cashier, stock crew, bookkeeper, sales &
+      service desk, customer service representative (CSR) and closing store
+      manager.
+    </li>
+    <li>
+      Assessed grocery store for cleanliness and checked proper stocking Summary
+      Skills Experience of shelves, refrigerated section and freezers.
+    </li>
+    <li>
+      Drove consistent grocery sales with effective merchandising and promotions
+      implementation.
+    </li>
+    <li>
+      Introduced grocery store employee incentive program to boost team morale.
+    </li>
+    <li>
+      Coordinated efficient restocking of grocery merchandise to meet customer
+      needs and promote consistent sales.
+    </li>
+    <li>
+      Maintained comprehensive compliance with workplace and food safety logos
+      to protect staff and customers.
+    </li>
+    <li>
+      Analyzed the store's inventory and ordered merchandise and products when
+      stock levels were low.
+    </li>
+    <li>
+      Maximized profit by coordinating efficient team workflows, minimizing
+      waste and controlling shrinkage.
+    </li>
+    <li>
+      Delivered expert customer service to all store patrons and assisted with
+      locating desired items.
+    </li>
+    <li>
+      Lead by example and took responsibility for all actions drive culture of
+      performance excellence.
+    </li>
+    <li>
+      Streamlined operational efficiencies by coordinating staff development and
+      succession planning.
+    </li>
+    <li>
+      Identified and solved complex strategy problems to drive organizational
+      goals.
+    </li>
+  </ul>
+);
+
+const eCedar = (
+  <ul>
+    <li>
+      Performed skilled and semi-skilled repairs to existing roofs, including
+      shingle replacement.
+    </li>
+    <li>
+      Completed residential and commercial roofing work on time and within
+      expected project parameters, increasing repeat business opportunities.
+    </li>
+    <li>
+      Worked regularly at advanced heights and followed all OSHA safety
+      protocols and procedures for fall prevention.
+    </li>
+    <li>
+      Mopped and poured hot asphalt and tar onto roof base while applying
+      asphalt and tar and gravel to roof.
+    </li>
+    <li>
+      Completed and submitted accurate work orders to office staff promptly to
+      avoid lags in commencing projects.
+    </li>
+    <li>
+      Collected and removed debris and roofing materials to disposal areas at
+      end of every shift to maintain clean work area.
+    </li>
+    <li>
+      Provided excellent service and attention to customers when face-to-face or
+      through phone conversations.
+    </li>
+    <li>Earned reputation for great attendance and hard work.</li>
+  </ul>
+);
+
+const marine = (
+  <ul>
+    <li>
+      Functioned as a Squad Leader, Fireteam Leader and a Breaching Instructor.
+    </li>
+    <li>
+      Used visual methods and mine detectors to identify and locate mines,
+      effectively detonating enemy threats.
+    </li>
+    <li>Located and neutralized various types of mines and IEDs.</li>
+    <li>
+      Trained and instructed subordinates and supported units on engineer
+      training.
+    </li>
+    <li>
+      Installed and recovered anti-handing devices on anti-tank mines and
+      electrical and non-electrical demolition charges.
+    </li>
+    <li>
+      Made roads, bridges and ferries safe for travel by conducting ground
+      reconnaissance and reporting back to Platoon Sergeant.
+    </li>
+    <li>
+      Supervised minefield installation and removal, notifying superiors with
+      consistent updated information.
+    </li>
+    <li>
+      Developed top talent by leading training initiatives for combat
+      preparation.
+    </li>
+    <li>
+      Completed dozens of patrols of assigned areas within operations areas
+      during Operation Iraqi Freedom.
+    </li>
+    <li>
+      Instructed personnel on ways to reduce environmental hazards and proper
+      use of PPE.
+    </li>
+  </ul>
+);
+
+export const workExp = [
+  {
+    id: 0,
+    image: "../images/prlogo.png",
+    title: "Pierre&RadyLLC",
+    position: "Software Developer/ PHP Engineer",
+    dates: "(08/2019 - Present)",
+    location: " Fort Lauderdale, Florida",
+    experience: prLLC,
+  },
+  {
+    id: 1,
+    image: "../images/auxiliarysystems.jpg",
+    title: "Auxilary Systems",
+    position: "Outside Machinist",
+    dates: "(07/2018 - 08/2019)",
+    location: "Norfolk, VA",
+    experience: aux,
+  },
+  {
+    id: 2,
+    image: "../images/farmfresh.png",
+    title: "Farm Fresh Supermarkets",
+    position: "Assistant Grocery Manager",
+    dates: "(12/2015 - 07/2018)",
+    location: "Norfolk, VA",
+    experience: ffresh,
+  },
+  {
+    id: 3,
+    image: "../images/eastcoastcedarlogo.jpg",
+    title: "East Coast Cedar",
+    position: "Roofing Assistant",
+    location: "Virginia Beach, VA",
+    dates: "(02/2013 - 01/2015)",
+    experience: eCedar,
+  },
+  {
+    id: 4,
+    image: "../images/usmclogo.png",
+    title: "United States Marine Corps",
+    position: "1371 Combat Engineer",
+    location: "Lynchburg, Virginia",
+    dates: " (02/2006 - 02/2012)",
+    experience: marine,
+  },
+];
+
+export const nucampExp = (
+  <Media body>
+    <ul>
+      <Media heading>
+        <h3>Nucamp Coding Bootcamp</h3>
+      </Media>
+      <i>
+        <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
+      </i>
+      Online Eastern <br />
+      (08/2019 - 04/2020)
+      <br />
+      <li>
+        <u>Courses Completed:</u>
+      </li>
+      <ul>
+        {" "}
+        <li>HTML/CSS & JavaScript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Node JS/MongoDB/Express</li>
+      </ul>
+    </ul>
+  </Media>
+);
+
+export const libertyExp = (
+  <Media body>
+    <ul>
+      <Media heading>
+        <h3>Liberty University</h3>
+      </Media>
+      <i>
+        <h5>
+          Biology Major <br />
+          French Minor
+        </h5>
+      </i>
+      Lynchburg, VA
+      <br />
+      (2002 - 2005)
+    </ul>
+  </Media>
+);
+
+export const gRunExp = (
+  <Media body>
+    <ul>
+      <Media heading>
+        <h3>Green Run High School</h3>
+      </Media>
+      <i>
+        <h5>Advanced Diploma</h5>
+      </i>
+      Virginia Beach, VA
+      <br />
+      (1998 - 2002)
+    </ul>
+  </Media>
+);
+
+export const honors = (
+  <Media body>
+    <ul>
+      <li>Corporal - United States Marine Corps</li>
+      <li>CIRCOM (Certificate of Commendation) - United States Marine Corps</li>
+      <li>Dean's List - Liberty University 2003</li>
+      <li>
+        Nucamp Coding Bootcamp - React, React Native,
+        BootstrapNodeJS/Express/MongoDB, JavaScript/HTML/CSS
+      </li>
+    </ul>
+  </Media>
+);

@@ -1,5 +1,6 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
+import { FadeTransform  } from 'react-animation-components';
 
 function Home() {
   return (
@@ -7,7 +8,9 @@ function Home() {
       <Container fluid>
         <Row style={{ alignItems: "center" }}>
           <Col lg={5} md={12} sm={12} className="text-center">
+            <FadeTransform enterTransform="translateX(0px)" exitTransform="translateX(-120px)" in>
             <Media id="homePic" object src={"./images/Me1.jpg"} alt="Me" />
+            </FadeTransform>
           </Col>
           <Col lg={6} md={12} sm={12}>
             <p className="infobox">
