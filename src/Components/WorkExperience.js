@@ -19,7 +19,7 @@ function WorkExperience() {
             <Row style={resume}>
               <Col>
                 <Media key={item.id}>
-                  <Media left href="#" style={size.logoSpacing}>
+                  <Media left style={size.logoSpacing}>
                     <Media src={item.image} object style={size.logo} />
                   </Media>
                   <Media body>
