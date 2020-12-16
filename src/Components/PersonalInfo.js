@@ -7,16 +7,10 @@ function PersonalInfo() {
   return (
     <Jumbotron fluid id="main">
       <Container fluid>
-        <Row
-          style={{
-            justifyContent: "center",
-            margin: "10px",
-            marginBottom: "40px",
-          }}
-        >
-          <Fade in>
-            <Media id="youknow" alt="introPer" src="./images/more-you-know.gif" />
-          </Fade>
+        <Row>
+          <Col className="text-center">
+            <h1 style={size.headerSpace}>About Me</h1>
+          </Col>
         </Row>
         <Row>
           <FadeTransform
@@ -47,9 +41,31 @@ function PersonalInfo() {
             <Col> {textinfo.hobbies}</Col>
           </FadeTransform>
         </Row>
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginTop: "40px",
+          }}
+        >
+          <Fade in>
+            <Media
+              id="youknow"
+              alt="introPer"
+              src="./images/more-you-know.gif"
+            />
+          </Fade>
+        </Row>
       </Container>
     </Jumbotron>
   );
 }
+
+const size = {
+  headerSpace: {
+    marginBottom: "50px",
+    color: "goldenrod",
+  },
+};
 
 export default PersonalInfo;

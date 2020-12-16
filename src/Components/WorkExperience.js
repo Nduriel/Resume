@@ -177,7 +177,7 @@ const size = {
   logo: {
     width: "200px",
     height: "auto",
-    border: "3px solid grey",
+    border: "2px solid black",
     borderStyle: "ridge",
     borderRadius: "1%",
   },
