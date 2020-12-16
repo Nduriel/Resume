@@ -23,7 +23,7 @@ function WorkExperience() {
           }}
         >
           <Fade in>
-            <Media id="youknow" src="./images/work.gif" />
+            <Media id="youknow" alt="workgif" src="./images/work.gif" />
           </Fade>
         </Row>
         <Stagger in>
@@ -75,7 +75,7 @@ function WorkExperience() {
           }}
         >
           <Fade in>
-            <Media id="youknow" src="./images/school.gif" />
+            <Media id="youknow" alt="schoolGif" src="./images/school.gif" />
           </Fade>
         </Row>
         <Row style={resume}>

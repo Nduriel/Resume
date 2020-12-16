@@ -15,7 +15,7 @@ function PersonalInfo() {
           }}
         >
           <Fade in>
-            <Media id="youknow" src="./images/more-you-know.gif" />
+            <Media id="youknow" alt="introPer" src="./images/more-you-know.gif" />
           </Fade>
         </Row>
         <Row>

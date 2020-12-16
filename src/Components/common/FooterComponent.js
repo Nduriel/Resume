@@ -33,7 +33,7 @@ function FooterComponent() {
               </ul>
             </div>
           </Col>
-          <Col className="text-center" xs={7} md={6} sm={6} lg={5}>
+          <Col className="text-center"style={{marginTop: "10px"}} xs={7} md={6} sm={6} lg={5}>
             {" "}
             <ul id="footer">
               <span style={footerHeader}>
