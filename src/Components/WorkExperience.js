@@ -15,6 +15,17 @@ function WorkExperience() {
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginBottom: "100px",
+          }}
+        >
+          <Fade in>
+            <Media id="youknow" src="./images/work.gif" />
+          </Fade>
+        </Row>
         <Stagger in>
           {text.workExp.map((item) => {
             return (
@@ -56,11 +67,21 @@ function WorkExperience() {
             </sub>
           </a>
         </h1>
-
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginBottom: "100px",
+          }}
+        >
+          <Fade in>
+            <Media id="youknow" src="./images/school.gif" />
+          </Fade>
+        </Row>
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left>
                 <a
                   href="https://learn.nucamp.co/course/index.php?categoryid=3"
                   role="button"
@@ -79,7 +100,7 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
+              <Media left>
                 <a
                   href="https://www.liberty.edu/"
                   role="button"
@@ -98,13 +119,20 @@ function WorkExperience() {
         <Row style={resume}>
           <Col>
             <Media>
-              <Media left href="#">
-                {" "}
-                <Media
-                  className="text-center"
-                  src="../images/greenrun.jpg"
-                  style={size.logo}
-                />
+              <Media left>
+                <a
+                  href="https://greenrunhs.vbschools.com/"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    className="text-center"
+                    src="../images/greenrun.jpg"
+                    style={size.logo}
+                  />
+                </a>
               </Media>
               {text.gRunExp}
             </Media>

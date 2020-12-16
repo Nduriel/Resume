@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Media } from "reactstrap";
 import * as textinfo from "./common/textinfo";
-import { FadeTransform } from "react-animation-components";
+import { FadeTransform, Fade } from "react-animation-components";
 
 function PersonalInfo() {
   return (
@@ -14,7 +14,9 @@ function PersonalInfo() {
             marginBottom: "40px",
           }}
         >
-          <Media id="youknow" src="./images/more-you-know.gif" />
+          <Fade in>
+            <Media id="youknow" src="./images/more-you-know.gif" />
+          </Fade>
         </Row>
         <Row>
           <FadeTransform
