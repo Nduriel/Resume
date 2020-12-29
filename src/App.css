@@ -35,7 +35,7 @@
   border: 3px solid rgba(255, 255, 255, 0.822);
   border-style: ridge;
   box-shadow: 4px 4px 10px grey;
-  width: auto;
+  width: 100%;
   max-width: 450px;
   height: auto;
 }
