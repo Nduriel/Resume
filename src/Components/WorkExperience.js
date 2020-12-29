@@ -23,7 +23,7 @@ function WorkExperience() {
           }}
         >
           <Fade in>
-            <Media id="youknow" alt="workgif" src="./images/work.gif" />
+            <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
           </Fade>
         </Row>
         <Stagger in>
@@ -89,7 +89,7 @@ function WorkExperience() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Media src="../images/nucamplogo.png" style={size.logo} />
+                  <Media src="../images/logos/nucamplogo.png" style={size.logo} />
                 </a>
               </Media>
               {text.nucampExp}
@@ -108,7 +108,7 @@ function WorkExperience() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Media src="../images/libertylogo.png" style={size.logo} />
+                  <Media src="../images/logos/libertylogo.png" style={size.logo} />
                 </a>
               </Media>
               {text.libertyExp}
@@ -129,7 +129,7 @@ function WorkExperience() {
                 >
                   <Media
                     className="text-center"
-                    src="../images/greenrun.jpg"
+                    src="../images/logos/greenrun.jpg"
                     style={size.logo}
                   />
                 </a>
@@ -154,7 +154,7 @@ function WorkExperience() {
             <Media>
               <Media left>
                 <Media
-                  src="./images/trophy.png"
+                  src="./images/logos/trophy.png"
                   alt="trophy"
                   style={size.logo}
                 />

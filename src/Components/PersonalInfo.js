@@ -38,7 +38,7 @@ function PersonalInfo() {
             exitTransform="translateX(-60px)"
             in
           >
-            <Col> {textinfo.hobbies}</Col>
+            <Col>{textinfo.hobbies}</Col>
           </FadeTransform>
         </Row>
         <Row
@@ -52,7 +52,7 @@ function PersonalInfo() {
             <Media
               id="youknow"
               alt="introPer"
-              src="./images/more-you-know.gif"
+              src="../images/gifs/more-you-know.gif"
             />
           </Fade>
         </Row>

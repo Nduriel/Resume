@@ -17,8 +17,8 @@ export const earlylife = (
       <Media
         object
         style={size.image}
-        src="./images/highschool.jpg"
-        alt="WorkoutPic"
+        src="../images/highschool.jpg"
+        alt="EarlyLife"
       />
     </Media>
     <Media style={{ paddingLeft: "15px" }} body>
@@ -331,7 +331,7 @@ const marine = (
 export const workExp = [
   {
     id: 0,
-    image: "../images/prlogo.png",
+    image: "../images/logos/prlogo.png",
     title: "Pierre&RadyLLC",
     position: "Software Developer/ PHP Engineer",
     dates: "(08/2019 - Present)",
@@ -340,7 +340,7 @@ export const workExp = [
   },
   {
     id: 1,
-    image: "../images/auxiliarysystems.jpg",
+    image: "../images/logos/auxiliarysystems.jpg",
     title: "Auxilary Systems",
     position: "Outside Machinist",
     dates: "(07/2018 - 08/2019)",
@@ -349,7 +349,7 @@ export const workExp = [
   },
   {
     id: 2,
-    image: "../images/farmfresh.png",
+    image: "../images/logos/farmfresh.png",
     title: "Farm Fresh Supermarkets",
     position: "Assistant Grocery Manager",
     dates: "(12/2015 - 07/2018)",
@@ -358,7 +358,7 @@ export const workExp = [
   },
   {
     id: 3,
-    image: "../images/eastcoastcedarlogo.jpg",
+    image: "../images/logos/eastcoastcedarlogo.jpg",
     title: "East Coast Cedar",
     position: "Roofing Assistant",
     location: "Virginia Beach, VA",
@@ -367,7 +367,7 @@ export const workExp = [
   },
   {
     id: 4,
-    image: "../images/usmclogo.png",
+    image: "../images/logos/usmclogo.png",
     title: "United States Marine Corps",
     position: "1371 Combat Engineer",
     location: "Lynchburg, Virginia",
