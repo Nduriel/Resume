@@ -26,11 +26,11 @@ function WorkExperience() {
             <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
           </Fade>
         </Row>
-        <Stagger in>
-          {text.workExp.map((item) => {
-            return (
-              <Fade>
-                <Row style={resume}>
+        <Row style={resume}>
+          <Stagger in>
+            {text.workExp.map((item) => {
+              return (
+                <Fade>
                   <Col>
                     <Media key={item.id}>
                       <Media left style={size.logoSpacing}>
@@ -52,11 +52,11 @@ function WorkExperience() {
                       </Media>
                     </Media>
                   </Col>
-                </Row>
-              </Fade>
-            );
-          })}
-        </Stagger>
+                </Fade>
+              );
+            })}
+          </Stagger>
+        </Row>
       </Container>
       <Container fluid id="Education">
         <h1 className="text-center" style={size.headerSpace}>
@@ -75,7 +75,7 @@ function WorkExperience() {
           }}
         >
           <Fade in>
-            <Media id="youknow" alt="schoolGif" src="./images/school.gif" />
+            <Media id="youknow" alt="schoolGif" src="./images/gifs/school.gif" />
           </Fade>
         </Row>
         <Row style={resume}>
@@ -89,7 +89,10 @@ function WorkExperience() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Media src="../images/logos/nucamplogo.png" style={size.logo} />
+                  <Media
+                    src="../images/logos/nucamplogo.png"
+                    style={size.logo}
+                  />
                 </a>
               </Media>
               {text.nucampExp}
@@ -108,7 +111,10 @@ function WorkExperience() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Media src="../images/logos/libertylogo.png" style={size.logo} />
+                  <Media
+                    src="../images/logos/libertylogo.png"
+                    style={size.logo}
+                  />
                 </a>
               </Media>
               {text.libertyExp}
