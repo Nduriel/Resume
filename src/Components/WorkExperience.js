@@ -52,6 +52,7 @@ function WorkExperience() {
                       </Media>
                     </Media>
                   </Col>
+                  <br/>
                 </Fade>
               );
             })}
@@ -75,7 +76,11 @@ function WorkExperience() {
           }}
         >
           <Fade in>
-            <Media id="youknow" alt="schoolGif" src="./images/gifs/school.gif" />
+            <Media
+              id="youknow"
+              alt="schoolGif"
+              src="./images/gifs/school.gif"
+            />
           </Fade>
         </Row>
         <Row style={resume}>
