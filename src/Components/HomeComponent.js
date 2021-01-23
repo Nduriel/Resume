@@ -133,8 +133,15 @@ function Home() {
               >
                 Plural Sight
               </a>
-              &nbsp;and maintain a working knowledge of today Web Development
-              standards.
+              &nbsp;, and attend{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://newhorizons.com/"
+              >
+                <i style={{ color: "limegreen" }}>New Horizons</i>
+              </a>
+              &nbsp; where I am studying for various certifications.
             </p>
           </Col>
         </Row>
