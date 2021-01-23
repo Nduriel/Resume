@@ -141,7 +141,7 @@ function Home() {
               >
                 <i style={{ color: "limegreen" }}>New Horizons</i>
               </a>
-              &nbsp; where I am studying for various certifications.
+              &nbsp; where I am studying for various IT certifications.
             </p>
           </Col>
         </Row>
