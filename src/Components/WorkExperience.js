@@ -26,6 +26,37 @@ function WorkExperience() {
             <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
           </Fade>
         </Row>
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginBottom: "70px",
+          }}
+        >
+          {" "}
+          <Fade in>
+            <Media>
+              <Media body>
+                <Media heading>
+                  <span style={size.headerSpace}>Certifications</span>
+                </Media>
+                <a
+                  href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    style={{ width: "auto", height: "120px" }}
+                    alt="workgif"
+                    src="./images/A+cert.png"
+                  />
+                </a>
+              </Media>
+            </Media>
+          </Fade>
+        </Row>
         <Row style={resume}>
           <Stagger in>
             {text.workExp.map((item) => {
@@ -52,7 +83,7 @@ function WorkExperience() {
                       </Media>
                     </Media>
                   </Col>
-                  <br/>
+                  <br />
                 </Fade>
               );
             })}
