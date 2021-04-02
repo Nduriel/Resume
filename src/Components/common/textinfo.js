@@ -376,6 +376,38 @@ export const workExp = [
   },
 ];
 
+export const newhorizons = (
+  <Media body>
+    <ul>
+      <Media heading>
+        <h3>New Horizons</h3>
+      </Media>
+      <i>
+        <h5>New Horizons - Computer Learning Center</h5>{" "}
+      </i>
+      Online Eastern <br />
+      (01/2021 - Present)
+      <br />
+      <li>
+        <u>Courses</u>
+      </li>
+      <ul>
+        {" "}
+        <li>
+          A+ - <i>Certified</i>
+        </li>
+        <li>Newtorking+</li>
+        <li>
+          Security+ - <i>Certificaton in progress</i>
+        </li>
+        <li>CCNA</li>
+        <li>Server+</li>
+        <li>Azure Fundamentals & Administration</li>
+      </ul>
+    </ul>
+  </Media>
+);
+
 export const nucampExp = (
   <Media body>
     <ul>

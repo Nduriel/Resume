@@ -15,7 +15,7 @@ function WorkExperience() {
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
-        <Row
+        {/* <Row
           style={{
             justifyContent: "center",
             margin: "10px",
@@ -25,44 +25,39 @@ function WorkExperience() {
           <Fade in>
             <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
           </Fade>
-        </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            margin: "10px",
-            marginBottom: "70px",
-          }}
-        >
-          {" "}
-          <Fade in>
-            <Media>
-              <Media body>
-                <Media heading>
-                  <span style={size.headerSpace}>Certifications</span>
+        </Row> */}
+        <Row className="text-center">
+          <Col>
+            <Fade in>
+              <Media>
+                <Media body>
+                  <Media heading>
+                    <span style={size.headerSpace}>Certifications</span>
+                  </Media>
+                  <a
+                    href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/A+cert.png"
+                    />
+                  </a>
                 </Media>
-                <a
-                  href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Media
-                    style={{ width: "auto", height: "120px" }}
-                    alt="workgif"
-                    src="./images/A+cert.png"
-                  />
-                </a>
               </Media>
-            </Media>
-          </Fade>
+            </Fade>
+          </Col>
         </Row>
         <Row style={resume}>
           <Stagger in>
             {text.workExp.map((item) => {
               return (
                 <Fade>
-                  <Col style={size.infotable}>
+                  <Col style={size.worktable}>
                     <Media key={item.id}>
                       <Media left style={size.logoSpacing}>
                         <Media src={item.image} object style={size.logo} />
@@ -70,7 +65,9 @@ function WorkExperience() {
                       <Media body>
                         <ul>
                           <Media heading>
-                            <h2><u>{item.title}</u></h2>
+                            <h2>
+                              <u>{item.title}</u>
+                            </h2>
                           </Media>
                           <i>
                             <h5>{item.position}</h5>
@@ -90,6 +87,9 @@ function WorkExperience() {
           </Stagger>
         </Row>
       </Container>
+
+      {/* Education */}
+
       <Container fluid id="Education">
         <h1 className="text-center" style={size.headerSpace}>
           Education{" "}
@@ -114,10 +114,30 @@ function WorkExperience() {
             />
           </Fade>
         </Row>
-        <Row style={resume}>
-          <Col>
+        <Row>
+          <Col style={size.schooltable}>
             <Media>
-              <Media left>
+              <Media left style={size.logoSpacing}>
+                <a
+                  href="https://www.newhorizons.com/"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    src="../images/logos/nh.png"
+                    object
+                    style={size.logo}
+                  />
+                </a>
+              </Media>
+              {text.newhorizons}
+            </Media>
+          </Col>
+          <Col style={size.schooltable}>
+            <Media>
+              <Media left style={size.logoSpacing}>
                 <a
                   href="https://learn.nucamp.co/course/index.php?categoryid=3"
                   role="button"
@@ -127,6 +147,7 @@ function WorkExperience() {
                 >
                   <Media
                     src="../images/logos/nucamplogo.png"
+                    object
                     style={size.logo}
                   />
                 </a>
@@ -137,9 +158,9 @@ function WorkExperience() {
         </Row>
         <br />
         <Row style={resume}>
-          <Col>
+          <Col style={size.schooltable}>
             <Media>
-              <Media left>
+              <Media left style={size.logoSpacing}>
                 <a
                   href="https://www.liberty.edu/"
                   role="button"
@@ -150,18 +171,16 @@ function WorkExperience() {
                   <Media
                     src="../images/logos/libertylogo.png"
                     style={size.logo}
+                    object
                   />
                 </a>
               </Media>
               {text.libertyExp}
             </Media>
           </Col>
-        </Row>
-        <br />
-        <Row style={resume}>
-          <Col>
+          <Col style={size.schooltable}>
             <Media>
-              <Media left>
+              <Media left style={size.logoSpacing}>
                 <a
                   href="https://greenrunhs.vbschools.com/"
                   role="button"
@@ -170,9 +189,9 @@ function WorkExperience() {
                   rel="noopener noreferrer"
                 >
                   <Media
-                    className="text-center"
                     src="../images/logos/greenrun.jpg"
                     style={size.logo}
+                    object
                   />
                 </a>
               </Media>
@@ -224,18 +243,27 @@ const size = {
     borderRadius: "1%",
   },
   headerSpace: {
-    marginBottom: "30px",
+    marginBottom: "50px",
     color: "goldenrod",
   },
   logoSpacing: {
     marginTop: "70px",
   },
-  infotable: {
+  worktable: {
     borderStyle: "ridge",
     borderRadius: "5px",
     border: "2px solid grey",
     boxShadow: "2px 2px 2px black",
     margin: "3px",
+  },
+  schooltable: {
+    borderStyle: "ridge",
+    borderRadius: "5px",
+    border: "3px solid grey",
+    boxShadow: "2px 2px 2px black",
+    background: "grey",
+    margin: "6px",
+    marginBottom: "2rem",
   },
 };
 export default WorkExperience;
