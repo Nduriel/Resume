@@ -62,7 +62,7 @@ function WorkExperience() {
             {text.workExp.map((item) => {
               return (
                 <Fade>
-                  <Col>
+                  <Col style={size.infotable}>
                     <Media key={item.id}>
                       <Media left style={size.logoSpacing}>
                         <Media src={item.image} object style={size.logo} />
@@ -70,7 +70,7 @@ function WorkExperience() {
                       <Media body>
                         <ul>
                           <Media heading>
-                            <h2>{item.title}</h2>
+                            <h2><u>{item.title}</u></h2>
                           </Media>
                           <i>
                             <h5>{item.position}</h5>
@@ -229,6 +229,13 @@ const size = {
   },
   logoSpacing: {
     marginTop: "70px",
+  },
+  infotable: {
+    borderStyle: "ridge",
+    borderRadius: "5px",
+    border: "2px solid grey",
+    boxShadow: "2px 2px 2px black",
+    margin: "3px",
   },
 };
 export default WorkExperience;
