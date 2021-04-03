@@ -1,8 +1,6 @@
 #main {
   background-color: #282c34;
   color: white;
-  margin: auto;
-  text-shadow: 1px 1px 1px grey;
   font-size: 18px;
 }
 
@@ -19,6 +17,9 @@
 
 }
 
+ .media {
+  margin: auto; 
+ }
 .carousel-item > img {
   width: auto;
   position: relative;

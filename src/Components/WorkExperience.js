@@ -26,6 +26,9 @@ function WorkExperience() {
             <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
           </Fade>
         </Row> */}
+
+        {/* Certs */}
+
         <Row className="text-center">
           <Col>
             <Fade in>
@@ -52,15 +55,23 @@ function WorkExperience() {
             </Fade>
           </Col>
         </Row>
-        <Row style={resume}>
+
+        {/* Work Experience */}
+
+        <Row style={size.schooltable}>
           <Stagger in>
             {text.workExp.map((item) => {
               return (
                 <Fade>
-                  <Col style={size.worktable}>
+                  <Col>
                     <Media key={item.id}>
                       <Media left style={size.logoSpacing}>
-                        <Media src={item.image} object style={size.logo} />
+                        <Media
+                          object
+                          src={item.image}
+                          style={size.logo}
+                          alt="worklogo"
+                        />
                       </Media>
                       <Media body>
                         <ul>
@@ -79,8 +90,9 @@ function WorkExperience() {
                         {item.experience}
                       </Media>
                     </Media>
+                    <br />
+                    <hr />
                   </Col>
-                  <br />
                 </Fade>
               );
             })}
@@ -210,7 +222,7 @@ function WorkExperience() {
             </sub>
           </a>
         </h1>{" "}
-        <Row style={resume}>
+        <Row style={size.schooltable}>
           <Col>
             <Media>
               <Media left>
@@ -236,32 +248,27 @@ const resume = {
 
 const size = {
   logo: {
-    width: "200px",
+    width: "150px",
     height: "auto",
     border: "2px solid black",
     borderStyle: "ridge",
     borderRadius: "1%",
+    marginTop: "70px",
+    marginLeft: "25px",
   },
   headerSpace: {
     marginBottom: "50px",
     color: "goldenrod",
   },
-  logoSpacing: {
-    marginTop: "70px",
-  },
-  worktable: {
-    borderStyle: "ridge",
-    borderRadius: "5px",
-    border: "2px solid grey",
-    boxShadow: "2px 2px 2px black",
-    margin: "3px",
-  },
+  // logoSpacing: {
+  // },
+ 
   schooltable: {
     borderStyle: "ridge",
     borderRadius: "5px",
     border: "3px solid grey",
     boxShadow: "2px 2px 2px black",
-    background: "grey",
+    background: "rgb(83, 82, 82)",
     margin: "6px",
     marginBottom: "2rem",
   },

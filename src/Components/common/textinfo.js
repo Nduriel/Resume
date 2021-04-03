@@ -69,7 +69,7 @@ export const militaryService = (
       </p>
     </Media>
     <Media right href="#">
-      <Media object style={size.image} src="./images/Me.jpg" alt="usmcme" />
+      <Media object style={size.image} src="./images/Me2.jpg" alt="usmcme" />
     </Media>
   </Media>
 );
