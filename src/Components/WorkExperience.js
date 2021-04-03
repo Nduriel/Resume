@@ -58,14 +58,14 @@ function WorkExperience() {
 
         {/* Work Experience */}
 
-        <Row style={size.schooltable}>
+        <Row style={size.listtable} className="text-center">
           <Stagger in>
             {text.workExp.map((item) => {
               return (
                 <Fade>
-                  <Col>
+                  <Col  lg={11}>
                     <Media key={item.id}>
-                      <Media left style={size.logoSpacing}>
+                      <Media center style={size.logoSpacing}>
                         <Media
                           object
                           src={item.image}
@@ -74,19 +74,17 @@ function WorkExperience() {
                         />
                       </Media>
                       <Media body>
-                        <ul>
-                          <Media heading>
-                            <h2>
-                              <u>{item.title}</u>
-                            </h2>
-                          </Media>
-                          <i>
-                            <h5>{item.position}</h5>
-                            {item.dates}
-                          </i>
-                          <br />
-                          {item.location}
-                        </ul>
+                        <Media heading>
+                          <h2>
+                            <u>{item.title}</u>
+                          </h2>
+                        </Media>
+                        <i>
+                          <h5>{item.position}</h5>
+                          {item.dates}
+                        </i>
+                        <br />
+                        {item.location}
                         {item.experience}
                       </Media>
                     </Media>
@@ -127,7 +125,7 @@ function WorkExperience() {
           </Fade>
         </Row>
         <Row>
-          <Col style={size.schooltable}>
+          <Col style={size.listtable}>
             <Media>
               <Media left style={size.logoSpacing}>
                 <a
@@ -147,7 +145,7 @@ function WorkExperience() {
               {text.newhorizons}
             </Media>
           </Col>
-          <Col style={size.schooltable}>
+          <Col style={size.listtable}>
             <Media>
               <Media left style={size.logoSpacing}>
                 <a
@@ -170,7 +168,7 @@ function WorkExperience() {
         </Row>
         <br />
         <Row style={resume}>
-          <Col style={size.schooltable}>
+          <Col style={size.listtable}>
             <Media>
               <Media left style={size.logoSpacing}>
                 <a
@@ -190,7 +188,7 @@ function WorkExperience() {
               {text.libertyExp}
             </Media>
           </Col>
-          <Col style={size.schooltable}>
+          <Col style={size.listtable}>
             <Media>
               <Media left style={size.logoSpacing}>
                 <a
@@ -222,7 +220,7 @@ function WorkExperience() {
             </sub>
           </a>
         </h1>{" "}
-        <Row style={size.schooltable}>
+        <Row style={size.listtable}>
           <Col>
             <Media>
               <Media left>
@@ -248,22 +246,17 @@ const resume = {
 
 const size = {
   logo: {
-    width: "150px",
+    width: "175px",
     height: "auto",
     border: "2px solid black",
     borderStyle: "ridge",
     borderRadius: "1%",
-    marginTop: "70px",
-    marginLeft: "25px",
   },
   headerSpace: {
     marginBottom: "50px",
     color: "goldenrod",
   },
-  // logoSpacing: {
-  // },
- 
-  schooltable: {
+  listtable: {
     borderStyle: "ridge",
     borderRadius: "5px",
     border: "3px solid grey",

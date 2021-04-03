@@ -105,7 +105,7 @@ export const hobbies = (
 );
 
 const prLLC = (
-  <ul>
+  <ul className="list-unstyled">
     <li>
       Developed website for LLC which helps stay in contact with customers as
       well as list our services.
@@ -114,7 +114,7 @@ const prLLC = (
       Have created multiple PHP parsing programs that facilitate credit card
       production.
     </li>
-    <ul>
+    <ul className="list-unstyled">
       <u>Websites Developed:</u>
       <li>
         <a
@@ -139,8 +139,8 @@ const prLLC = (
 );
 
 const aux = (
-  <ul>
-    <li>
+  <ul className="list-unstyled">
+    <li >
       Assistant Grocery Manager for two stores at the same time; Ghent and
       Military Highway Stores.
     </li>
@@ -196,7 +196,7 @@ const aux = (
 );
 
 const ffresh = (
-  <ul>
+  <ul className="list-unstyled">
     {" "}
     <li>
       Assistant Grocery Manager for two stores at the same time; Ghent and
@@ -254,7 +254,7 @@ const ffresh = (
 );
 
 const eCedar = (
-  <ul>
+  <ul className="list-unstyled">
     <li>
       Performed skilled and semi-skilled repairs to existing roofs, including
       shingle replacement.
@@ -288,7 +288,7 @@ const eCedar = (
 );
 
 const marine = (
-  <ul>
+  <ul className="list-unstyled">
     <li>
       Functioned as a Squad Leader, Fireteam Leader and a Breaching Instructor.
     </li>

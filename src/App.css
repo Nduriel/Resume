@@ -19,6 +19,7 @@
 
  .media {
   margin: auto; 
+  display: inline;
  }
 .carousel-item > img {
   width: auto;
