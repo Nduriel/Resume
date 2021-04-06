@@ -12,41 +12,41 @@ function WorkExperience() {
         <a href="#Honors">Honors and Awards</a>
       </h5>
       <Container fluid>
-          {/* <Row>
+        {/* <Row>
         <Fade in>
         <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
         </Fade>
-      </Row> */}      
+      </Row> */}
 
-          {/* Certs */}
+        {/* Certs */}
 
-          <Row className="text-center">
-            <Col>
-              <Fade in>
-                <Media>
-                  <Media body>
-                    <Media heading>
-                      <span style={size.headerSpace}>Certifications</span>
-                    </Media>
-                    <a
-                      href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
-                      role="button"
-                      className="btn btn-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Media
-                        style={{ width: "auto", height: "120px" }}
-                        alt="workgif"
-                        src="./images/A+cert.png"
-                      />
-                    </a>
+        <Row className="text-center">
+          <Col>
+            <Fade in>
+              <Media>
+                <Media body>
+                  <Media heading>
+                    <span style={size.headerSpace}>Certifications</span>
                   </Media>
+                  <a
+                    href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/A+cert.png"
+                    />
+                  </a>
                 </Media>
-              </Fade>
-            </Col>
-          </Row>
-          <div>
+              </Media>
+            </Fade>
+          </Col>
+        </Row>
+        <div>
           <h1 className="text-center" style={size.headerSpace}>
             Work Experience
           </h1>
@@ -57,8 +57,8 @@ function WorkExperience() {
               {text.workExp.map((item) => {
                 return (
                   <Fade>
-                    <Col lg={11}>
-                      <Media key={item.id}>
+                    <Media key={item.id}>
+                      <Col lg={3}>
                         <Media center style={size.logoSpacing}>
                           <Media
                             object
@@ -67,7 +67,9 @@ function WorkExperience() {
                             alt="worklogo"
                           />
                         </Media>
-                        <Media body>
+                      </Col>
+                      <Media body>
+                        <Col lg={10}>
                           <Media heading>
                             <h2>
                               <u>{item.title}</u>
@@ -80,11 +82,11 @@ function WorkExperience() {
                           <br />
                           {item.location}
                           {item.experience}
-                        </Media>
+                        </Col>
                       </Media>
-                      <br />
-                      <hr />
-                    </Col>
+                    </Media>
+                    <br />
+                    <hr />
                   </Fade>
                 );
               })}
