@@ -6,21 +6,21 @@ import { Fade, Stagger } from "react-animation-components";
 function WorkExperience() {
   return (
     <Jumbotron id="main" fluid>
-      <h5 className="text-center" id="top">
-        <a href="#WorkExp">Work Experience</a> -{" "}
-        <a href="#Education">Education</a> -{" "}
-        <a href="#Honors">Honors and Awards</a>
-      </h5>
       <Container fluid>
+        <h5 className="text-center" id="top">
+          <a href="#WorkExp">Work Experience</a> -{" "}
+          <a href="#Education">Education</a> -{" "}
+          <a href="#Honors">Honors and Awards</a>
+        </h5>
         {/* <Row>
         <Fade in>
         <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
         </Fade>
-      </Row> */}
+          </Row> */}
 
         {/* Certs */}
 
-        <Row className="text-center">
+        <Row>
           <Col>
             <Fade in>
               <Media>
@@ -46,43 +46,39 @@ function WorkExperience() {
             </Fade>
           </Col>
         </Row>
-        <div>
-          <h1 className="text-center" style={size.headerSpace}>
-            Work Experience
-          </h1>
-          {/* Work Experience */}
+        {/* Work Experience */}
+        <h1 className="text-center" style={size.headerSpace}>
+          Work Experience
+        </h1>
 
-          <Row style={size.listtable} className="text-center">
+        <Row style={size.listtable} className="justify-content-center">
+          <Col lg="auto">
             <Stagger in>
               {text.workExp.map((item) => {
                 return (
                   <Fade>
-                    <Media key={item.id}>
-                      <Col lg={3}>
-                        <Media center style={size.logoSpacing}>
-                          <Media
-                            object
-                            src={item.image}
-                            style={size.logo}
-                            alt="worklogo"
-                          />
-                        </Media>
-                      </Col>
+                    <Media key={item.id} className="mt-3">
                       <Media body>
-                        <Col lg={10}>
-                          <Media heading>
-                            <h2>
-                              <u>{item.title}</u>
-                            </h2>
-                          </Media>
-                          <i>
-                            <h5>{item.position}</h5>
-                            {item.dates}
-                          </i>
-                          <br />
-                          {item.location}
-                          {item.experience}
-                        </Col>
+                        <Media heading>
+                          <h2>
+                            <u>{item.title}</u>
+                          </h2>
+                        </Media>
+                        <i>
+                          <h5>{item.position}</h5>
+                          {item.dates}
+                        </i>
+                        <br />
+                        {item.location}
+                        {item.experience}
+                      </Media>
+                      <Media className="mt-5 ml-5" style={size.logoSpacing}>
+                        <Media
+                          object
+                          src={item.image}
+                          style={size.logo}
+                          alt="worklogo"
+                        />
                       </Media>
                     </Media>
                     <br />
@@ -91,8 +87,8 @@ function WorkExperience() {
                 );
               })}
             </Stagger>
-          </Row>
-        </div>
+          </Col>
+        </Row>
 
         {/* Education */}
 
