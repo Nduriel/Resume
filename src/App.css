@@ -7,11 +7,11 @@
 }
 
 #heading {
-  background: linear-gradient(whitesmoke, rgb(43, 41, 41));
+  background: linear-gradient(rgb(68, 55, 55), rgb(29, 29, 29));
+  border-radius: 5px;
+  margin: 5px;
   text-shadow: 2px 2px 2px black;
   border-bottom: 2px solid black;
-  margin: 5px;
-  border: radius 5px;
 }
 
 .carousel {
@@ -24,13 +24,12 @@
   border-color: rgb(80, 80, 80);
   box-shadow: 8px 8px 10px rgb(31, 29, 29);
   box-sizing: border-box;
-
 }
 
- .media {
-  margin: auto; 
+.media {
+  margin: auto;
   display: inline;
- }
+}
 .carousel-item > img {
   width: auto;
   position: relative;
@@ -51,8 +50,6 @@
   max-width: 450px;
   height: auto;
 }
-
-
 
 #navBar {
   background-color: rgb(112, 112, 112);

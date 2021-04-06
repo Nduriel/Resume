@@ -60,9 +60,7 @@ function WorkExperience() {
                     <Media key={item.id} className="mt-3">
                       <Media body>
                         <Media heading>
-                          <h2 id="heading">
-                            {item.title}
-                          </h2>
+                          <h2 id="heading">{item.title}</h2>
                         </Media>
                         <i>
                           <h5>{item.position}</h5>
@@ -72,7 +70,7 @@ function WorkExperience() {
                         {item.location}
                         {item.experience}
                       </Media>
-                      <Media className="mt-5 ml-5" style={size.logoSpacing}>
+                      <Media right className="mt-auto ml-auto">
                         <Media
                           object
                           src={item.image}
@@ -91,6 +89,7 @@ function WorkExperience() {
         </Row>
 
         {/* Education */}
+
         <div fluid id="Education">
           <h1 className="text-center" style={size.headerSpace}>
             Education{" "}
@@ -214,7 +213,7 @@ function WorkExperience() {
           <Row style={size.listtable}>
             <Col>
               <Media>
-                <Media left>
+                <Media left className="m-auto">
                   <Media
                     src="./images/logos/trophy.png"
                     alt="trophy"
