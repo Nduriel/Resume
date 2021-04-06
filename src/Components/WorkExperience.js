@@ -80,6 +80,7 @@ function WorkExperience() {
                       </Media>
                     </Media>
                     <br />
+                    <hr/>
                   </Fade>
                 );
               })}

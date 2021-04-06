@@ -135,7 +135,6 @@ const prLLC = (
         </a>
       </li>
     </ul>
-    <hr/>
   </ul>
 );
 
@@ -193,7 +192,6 @@ const aux = (
       Identified and solved complex strategy problems to drive organizational
       goals.
     </li>
-    <hr/>
   </ul>
 );
 
@@ -252,7 +250,6 @@ const ffresh = (
       Identified and solved complex strategy problems to drive organizational
       goals.
     </li>
-    <hr/>
   </ul>
 );
 
@@ -279,7 +276,6 @@ const eCedar = (
       end of every shift to maintain clean work area.
     </li>
     <li>Earned reputation for great attendance and hard work.</li>
-    <hr/>
   </ul>
 );
 
