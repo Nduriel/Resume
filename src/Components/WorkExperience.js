@@ -46,11 +46,11 @@ function WorkExperience() {
             </Fade>
           </Col>
         </Row>
+
         {/* Work Experience */}
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
-
         <Row style={size.listtable} className="justify-content-center">
           <Col lg="auto">
             <Stagger in>
@@ -60,8 +60,8 @@ function WorkExperience() {
                     <Media key={item.id} className="mt-3">
                       <Media body>
                         <Media heading>
-                          <h2>
-                            <u>{item.title}</u>
+                          <h2 id="heading">
+                            {item.title}
                           </h2>
                         </Media>
                         <i>
@@ -91,7 +91,6 @@ function WorkExperience() {
         </Row>
 
         {/* Education */}
-
         <div fluid id="Education">
           <h1 className="text-center" style={size.headerSpace}>
             Education{" "}

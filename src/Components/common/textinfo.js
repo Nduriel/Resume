@@ -379,7 +379,7 @@ export const workExp = [
 export const newhorizons = (
   <Media body>
     <ul>
-      <Media heading>
+      <Media heading id="heading">
         <h3>New Horizons</h3>
       </Media>
       <i>
@@ -411,7 +411,7 @@ export const newhorizons = (
 export const nucampExp = (
   <Media body>
     <ul>
-      <Media heading>
+      <Media heading id="heading">
         <h3>Nucamp Coding Bootcamp</h3>
       </Media>
       <i>
@@ -438,7 +438,7 @@ export const nucampExp = (
 export const libertyExp = (
   <Media body>
     <ul>
-      <Media heading>
+      <Media heading id="heading">
         <h3>Liberty University</h3>
       </Media>
       <i>
@@ -457,7 +457,7 @@ export const libertyExp = (
 export const gRunExp = (
   <Media body>
     <ul>
-      <Media heading>
+      <Media heading id="heading">
         <h3>Green Run High School</h3>
       </Media>
       <i>
