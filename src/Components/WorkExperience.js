@@ -70,7 +70,7 @@ function WorkExperience() {
                         {item.location}
                         {item.experience}
                       </Media>
-                      <Media right className="mt-auto ml-auto">
+                      <Media  className="mt-15 ">
                         <Media
                           object
                           src={item.image}
@@ -80,7 +80,6 @@ function WorkExperience() {
                       </Media>
                     </Media>
                     <br />
-                    <hr />
                   </Fade>
                 );
               })}

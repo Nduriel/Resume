@@ -135,6 +135,7 @@ const prLLC = (
         </a>
       </li>
     </ul>
+    <hr/>
   </ul>
 );
 
@@ -192,6 +193,7 @@ const aux = (
       Identified and solved complex strategy problems to drive organizational
       goals.
     </li>
+    <hr/>
   </ul>
 );
 
@@ -250,6 +252,7 @@ const ffresh = (
       Identified and solved complex strategy problems to drive organizational
       goals.
     </li>
+    <hr/>
   </ul>
 );
 
@@ -272,18 +275,11 @@ const eCedar = (
       asphalt and tar and gravel to roof.
     </li>
     <li>
-      Completed and submitted accurate work orders to office staff promptly to
-      avoid lags in commencing projects.
-    </li>
-    <li>
       Collected and removed debris and roofing materials to disposal areas at
       end of every shift to maintain clean work area.
     </li>
-    <li>
-      Provided excellent service and attention to customers when face-to-face or
-      through phone conversations.
-    </li>
     <li>Earned reputation for great attendance and hard work.</li>
+    <hr/>
   </ul>
 );
 
