@@ -51,45 +51,43 @@ function WorkExperience() {
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
-        <Row style={size.listtable} className="justify-content-center">
-          <Col lg="auto">
-            <Stagger in>
-              {text.workExp.map((item) => {
-                return (
-                  <Fade>
-                    <Media key={item.id} className="mt-3">
-                      <Media body>
-                        <Media heading>
-                          <h2 id="heading">{item.title}</h2>
-                        </Media>
-                        <i>
-                          <h5>{item.position}</h5>
-                          {item.dates}
-                        </i>
-                        <br />
-                        {item.location}
-                        <Row>
-                          <Col lg={9}>{item.experience}</Col>
-                          <Col lg={3} style={{ marginTop: "center" }}>
-                            <Media>
-                              <Media
-                                object
-                                src={item.image}
-                                style={size.logo}
-                                alt="worklogo"
-                              />
-                            </Media>
-                          </Col>
-                        </Row>
+        <Row id="listtable" className="justify-content-center">
+          <Stagger in>
+            {text.workExp.map((item) => {
+              return (
+                <Fade>
+                  <Media key={item.id} className="mt-3">
+                    <Media body>
+                      <Media heading>
+                        <h2 id="heading">{item.title}</h2>
                       </Media>
+                      <i>
+                        <h5>{item.position}</h5>
+                        {item.dates}
+                      </i>
+                      <br />
+                      {item.location}
+                      <Row>
+                        <Col lg={9}>{item.experience}</Col>
+                        <Col lg={3} style={{ marginTop: "center" }}>
+                          <Media>
+                            <Media
+                              object
+                              src={item.image}
+                              style={size.logo}
+                              alt="worklogo"
+                            />
+                          </Media>
+                        </Col>
+                      </Row>
                     </Media>
-                    <br />
-                    <hr />
-                  </Fade>
-                );
-              })}
-            </Stagger>
-          </Col>
+                  </Media>
+                  <br />
+                  <hr />
+                </Fade>
+              );
+            })}
+          </Stagger>
         </Row>
 
         {/* Education */}
@@ -119,7 +117,7 @@ function WorkExperience() {
             </Fade>
           </Row>
           <Row>
-            <Col style={size.listtable}>
+            <Col id="listtable">
               <Media>
                 <Media left style={size.logoSpacing}>
                   <a
@@ -139,7 +137,7 @@ function WorkExperience() {
                 {text.newhorizons}
               </Media>
             </Col>
-            <Col style={size.listtable}>
+            <Col id="listtable">
               <Media>
                 <Media left style={size.logoSpacing}>
                   <a
@@ -162,7 +160,7 @@ function WorkExperience() {
           </Row>
           <br />
           <Row style={resume}>
-            <Col style={size.listtable}>
+            <Col id="listtable">
               <Media>
                 <Media left style={size.logoSpacing}>
                   <a
@@ -182,7 +180,7 @@ function WorkExperience() {
                 {text.libertyExp}
               </Media>
             </Col>
-            <Col style={size.listtable}>
+            <Col id="listtable">
               <Media>
                 <Media left style={size.logoSpacing}>
                   <a
@@ -214,7 +212,7 @@ function WorkExperience() {
               </sub>
             </a>
           </h1>{" "}
-          <Row style={size.listtable}>
+          <Row id="listtable">
             <Col>
               <Media>
                 <Media left className="m-auto">
@@ -251,15 +249,6 @@ const size = {
   headerSpace: {
     marginBottom: "50px",
     color: "goldenrod",
-  },
-  listtable: {
-    borderStyle: "ridge",
-    borderRadius: "5px",
-    border: "3px solid grey",
-    boxShadow: "2px 2px 2px black",
-    background: "rgb(83, 82, 82)",
-    margin: "6px",
-    marginBottom: "2rem",
   },
 };
 export default WorkExperience;
