@@ -250,5 +250,14 @@ const size = {
     marginBottom: "50px",
     color: "goldenrod",
   },
+  listtable: {
+    borderStyle: "ridge",
+    borderRadius: "5px",
+    border: "3px solid grey",
+    boxShadow: "2px 2px 2px black",
+    background: "rgb(83, 82, 82)",
+    margin: "6px",
+    marginBottom: "2rem",
+  },
 };
 export default WorkExperience;
