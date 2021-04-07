@@ -62,6 +62,7 @@ function WorkExperience() {
                         <Media heading>
                           <h2 id="heading">{item.title}</h2>
                         </Media>
+                        <Col lg={10}>
                         <i>
                           <h5>{item.position}</h5>
                           {item.dates}
@@ -69,8 +70,10 @@ function WorkExperience() {
                         <br />
                         {item.location}
                         {item.experience}
+                      </Col>
                       </Media>
-                      <Media  className="mt-15 ">
+                      <Col lg={2} style={{marginTop: "center"}}>
+                      <Media >
                         <Media
                           object
                           src={item.image}
@@ -78,6 +81,7 @@ function WorkExperience() {
                           alt="worklogo"
                         />
                       </Media>
+                    </Col>
                     </Media>
                     <br />
                     <hr/>
@@ -242,6 +246,7 @@ const size = {
     border: "2px solid black",
     borderStyle: "ridge",
     borderRadius: "1%",
+    margin: "0"
   },
   headerSpace: {
     marginBottom: "50px",
