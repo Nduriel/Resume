@@ -28,10 +28,7 @@
   box-sizing: border-box;
 }
 
-.media {
-  margin: auto;
-  display: inline;
-}
+
 .carousel-item > img {
   width: auto;
   position: relative;
