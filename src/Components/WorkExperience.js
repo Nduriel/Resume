@@ -216,9 +216,9 @@ function WorkExperience() {
             </Media>
           </Col>
         </Row>
-        
+
         {/* Honors */}
-        <h1 className="text-center" id="Honors" style={size.headerSpace}>
+        {/* <h1 className="text-center" id="Honors" style={size.headerSpace}>
           Honors And Awards
           <a href="#top" aria-hidden="true">
             {" "}
@@ -226,21 +226,29 @@ function WorkExperience() {
               <i class="fa fa-arrow-up" />
             </sub>
           </a>
-        </h1>{" "}
-        <Row id="listtable">
+        </h1>{" "} */}
+        <Row id="listtable" style={{ marginTop: "60px" }}>
           <Col>
-            <Media>
-              <Media left className="m-auto">
-                <Media
-                  src="./images/logos/trophy.png"
-                  alt="trophy"
-                  style={size.logo}
-                />
+            <Media id="honors">
+              <Media body>
+                <Media heading id="heading" style={{ color: "goldenrod" }}>
+                  Honors and Awards
+                </Media>
+                <Media left>
+                  <Media
+                    src="./images/logos/trophy.png"
+                    alt="trophy"
+                    style={size.logo}
+                  />
+                </Media>
+                {text.honors}
               </Media>
-              {text.honors}
             </Media>
           </Col>
         </Row>
+        <a href="#top" aria-hidden="true">
+          Back to top
+        </a>
       </Container>
     </Jumbotron>
   );
