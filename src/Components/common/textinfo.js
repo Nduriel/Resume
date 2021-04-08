@@ -140,7 +140,7 @@ const prLLC = (
 
 const aux = (
   <ul className="list-unstyled">
-    <li >
+    <li>
       Assistant Grocery Manager for two stores at the same time; Ghent and
       Military Highway Stores.
     </li>
@@ -369,70 +369,56 @@ export const workExp = [
 ];
 
 export const newhorizons = (
-  <Media body>
+  <ul>
+    <i>
+      <h5>New Horizons - Computer Learning Center</h5>{" "}
+    </i>
+    Online Eastern <br />
+    (01/2021 - Present)
+    <br />
+    <li>
+      <u>Courses</u>
+    </li>
     <ul>
-      <Media heading id="heading">
-        <h3>New Horizons</h3>
-      </Media>
-      <i>
-        <h5>New Horizons - Computer Learning Center</h5>{" "}
-      </i>
-      Online Eastern <br />
-      (01/2021 - Present)
-      <br />
+      {" "}
       <li>
-        <u>Courses</u>
+        A+ - <i>Certified</i>
       </li>
-      <ul>
-        {" "}
-        <li>
-          A+ - <i>Certified</i>
-        </li>
-        <li>Newtorking+</li>
-        <li>
-          Security+ - <i>Certificaton in progress</i>
-        </li>
-        <li>CCNA</li>
-        <li>Server+</li>
-        <li>Azure Fundamentals & Administration</li>
-      </ul>
+      <li>Newtorking+</li>
+      <li>
+        Security+ - <i>Certificaton in progress</i>
+      </li>
+      <li>CCNA</li>
+      <li>Server+</li>
+      <li>Azure Fundamentals & Administration</li>
     </ul>
-  </Media>
+  </ul>
 );
 
 export const nucampExp = (
-  <Media body>
+  <ul>
+    <i>
+      <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
+    </i>
+    Online Eastern <br />
+    (08/2019 - 04/2020)
+    <br />
+    <li>
+      <u>Courses Completed:</u>
+    </li>
     <ul>
-      <Media heading id="heading">
-        <h3>Nucamp Coding Bootcamp</h3>
-      </Media>
-      <i>
-        <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
-      </i>
-      Online Eastern <br />
-      (08/2019 - 04/2020)
-      <br />
-      <li>
-        <u>Courses Completed:</u>
-      </li>
-      <ul>
-        {" "}
-        <li>HTML/CSS & JavaScript</li>
-        <li>Bootstrap</li>
-        <li>React</li>
-        <li>React Native</li>
-        <li>Node JS/MongoDB/Express</li>
-      </ul>
+      {" "}
+      <li>HTML/CSS & JavaScript</li>
+      <li>Bootstrap</li>
+      <li>React</li>
+      <li>React Native</li>
+      <li>Node JS/MongoDB/Express</li>
     </ul>
-  </Media>
+  </ul>
 );
 
 export const libertyExp = (
-  <Media body>
     <ul>
-      <Media heading id="heading">
-        <h3>Liberty University</h3>
-      </Media>
       <i>
         <h5>
           Biology Major <br />
@@ -443,15 +429,10 @@ export const libertyExp = (
       <br />
       (2002 - 2005)
     </ul>
-  </Media>
 );
 
 export const gRunExp = (
-  <Media body>
     <ul>
-      <Media heading id="heading">
-        <h3>Green Run High School</h3>
-      </Media>
       <i>
         <h5>Advanced Diploma</h5>
       </i>
@@ -459,7 +440,6 @@ export const gRunExp = (
       <br />
       (1998 - 2002)
     </ul>
-  </Media>
 );
 
 export const honors = (

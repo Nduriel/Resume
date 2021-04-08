@@ -113,42 +113,53 @@ function WorkExperience() {
         <Row>
           <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
             <Media>
-              <Media left style={size.logoSpacing}>
-                <a
-                  href="https://www.newhorizons.com/"
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Media
-                    src="../images/logos/nh.png"
-                    object
-                    style={size.logo}
-                  />
-                </a>
+              <Media body>
+                {" "}
+                <Media heading id="heading">
+                  <h3>New Horizons</h3>
+                </Media>
+                <Media left style={size.logoSpacing}>
+                  <a
+                    href="https://www.newhorizons.com/"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      src="../images/logos/nh.png"
+                      object
+                      style={size.logo}
+                    />
+                  </a>
+                </Media>
+                {text.newhorizons}
               </Media>
-              {text.newhorizons}
             </Media>
           </Col>
           <Col id="listtable">
             <Media>
-              <Media left style={size.logoSpacing}>
-                <a
-                  href="https://learn.nucamp.co/course/index.php?categoryid=3"
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Media
-                    src="../images/logos/nucamplogo.png"
-                    object
-                    style={size.logo}
-                  />
-                </a>
+              <Media body>
+                <Media heading id="heading">
+                  <h3>Nucamp Coding Bootcamp</h3>
+                </Media>
+                <Media left style={size.logoSpacing}>
+                  <a
+                    href="https://learn.nucamp.co/course/index.php?categoryid=3"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      src="../images/logos/nucamplogo.png"
+                      object
+                      style={size.logo}
+                    />
+                  </a>
+                </Media>
+                {text.nucampExp}
               </Media>
-              {text.nucampExp}
             </Media>
           </Col>
         </Row>
@@ -156,45 +167,56 @@ function WorkExperience() {
         <Row>
           <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
             <Media>
-              <Media left style={size.logoSpacing}>
-                <a
-                  href="https://www.liberty.edu/"
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Media
-                    src="../images/logos/libertylogo.png"
-                    style={size.logo}
-                    object
-                  />
-                </a>
+              <Media body>
+                <Media heading id="heading">
+                  <h3>Liberty University</h3>
+                </Media>
+                <Media left style={size.logoSpacing}>
+                  <a
+                    href="https://www.liberty.edu/"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      src="../images/logos/libertylogo.png"
+                      style={size.logo}
+                      object
+                    />
+                  </a>
+                </Media>
+                {text.libertyExp}
               </Media>
-              {text.libertyExp}
             </Media>
           </Col>
           <Col id="listtable">
             <Media>
-              <Media left style={size.logoSpacing}>
-                <a
-                  href="https://greenrunhs.vbschools.com/"
-                  role="button"
-                  className="btn btn-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Media
-                    src="../images/logos/greenrun.jpg"
-                    style={size.logo}
-                    object
-                  />
-                </a>
+              <Media body>
+                <Media heading id="heading">
+                  <h3>Green Run High School</h3>
+                </Media>
+                <Media left style={size.logoSpacing}>
+                  <a
+                    href="https://greenrunhs.vbschools.com/"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      src="../images/logos/greenrun.jpg"
+                      style={size.logo}
+                      object
+                    />
+                  </a>
+                </Media>
+                {text.gRunExp}
               </Media>
-              {text.gRunExp}
             </Media>
           </Col>
         </Row>
+        
         {/* Honors */}
         <h1 className="text-center" id="Honors" style={size.headerSpace}>
           Honors And Awards
