@@ -92,7 +92,7 @@ function WorkExperience() {
 
         {/* Education */}
 
-        <div fluid id="Education">
+        <Container fluid id="Education">
           <h1 className="text-center" style={size.headerSpace}>
             Education{" "}
             <a href="#top" aria-hidden="true">
@@ -201,8 +201,8 @@ function WorkExperience() {
               </Media>
             </Col>
           </Row>
-        </div>
-        <div fluid id="Honors">
+        </Container>
+        <Container fluid id="Honors">
           <h1 className="text-center" style={size.headerSpace}>
             Honors And Awards
             <a href="#top" aria-hidden="true">
@@ -226,7 +226,7 @@ function WorkExperience() {
               </Media>
             </Col>
           </Row>
-        </div>
+        </Container>
       </Container>
     </Jumbotron>
   );
