@@ -229,7 +229,7 @@ function WorkExperience() {
         </h1>{" "} */}
         <Row id="listtable" style={{ marginTop: "60px" }}>
           <Col>
-            <Media id="honors">
+            <Media id="Honors">
               <Media body>
                 <Media heading id="heading" style={{ color: "goldenrod" }}>
                   Honors and Awards
