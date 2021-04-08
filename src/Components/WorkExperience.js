@@ -17,9 +17,7 @@ function WorkExperience() {
         <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
         </Fade>
           </Row> */}
-
         {/* Certs */}
-
         <Row>
           <Col>
             <Fade in>
@@ -46,7 +44,6 @@ function WorkExperience() {
             </Fade>
           </Col>
         </Row>
-
         {/* Work Experience */}
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
@@ -89,153 +86,143 @@ function WorkExperience() {
             })}
           </Stagger>
         </Row>
-
         {/* Education */}
-
-        <Container fluid id="Education">
-          <h1 className="text-center" style={size.headerSpace}>
-            Education{" "}
-            <a href="#top" aria-hidden="true">
-              <sub style={{ fontSize: "15px" }}>
-                <i class="fa fa-arrow-up" />
-              </sub>
-            </a>
-          </h1>
-          <Row
-            style={{
-              justifyContent: "center",
-              margin: "10px",
-              marginBottom: "100px",
-            }}
-          >
-            <Fade in>
-              <Media
-                id="youknow"
-                alt="schoolGif"
-                src="./images/gifs/school.gif"
-              />
-            </Fade>
-          </Row>
-          <Row>
-            <Col id="listtable">
-              <Media>
-                <Media left style={size.logoSpacing}>
-                  <a
-                    href="https://www.newhorizons.com/"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      src="../images/logos/nh.png"
-                      object
-                      style={size.logo}
-                    />
-                  </a>
-                </Media>
-                {text.newhorizons}
-              </Media>
-            </Col>
-            <Col id="listtable">
-              <Media>
-                <Media left style={size.logoSpacing}>
-                  <a
-                    href="https://learn.nucamp.co/course/index.php?categoryid=3"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      src="../images/logos/nucamplogo.png"
-                      object
-                      style={size.logo}
-                    />
-                  </a>
-                </Media>
-                {text.nucampExp}
-              </Media>
-            </Col>
-          </Row>
-          <br />
-          <Row style={resume}>
-            <Col id="listtable">
-              <Media>
-                <Media left style={size.logoSpacing}>
-                  <a
-                    href="https://www.liberty.edu/"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      src="../images/logos/libertylogo.png"
-                      style={size.logo}
-                      object
-                    />
-                  </a>
-                </Media>
-                {text.libertyExp}
-              </Media>
-            </Col>
-            <Col id="listtable">
-              <Media>
-                <Media left style={size.logoSpacing}>
-                  <a
-                    href="https://greenrunhs.vbschools.com/"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      src="../images/logos/greenrun.jpg"
-                      style={size.logo}
-                      object
-                    />
-                  </a>
-                </Media>
-                {text.gRunExp}
-              </Media>
-            </Col>
-          </Row>
-        </Container>
-        <Container fluid id="Honors">
-          <h1 className="text-center" style={size.headerSpace}>
-            Honors And Awards
-            <a href="#top" aria-hidden="true">
-              {" "}
-              <sub style={{ fontSize: "15px" }}>
-                <i class="fa fa-arrow-up" />
-              </sub>
-            </a>
-          </h1>{" "}
-          <Row id="listtable">
-            <Col>
-              <Media>
-                <Media left className="m-auto">
+        <h1 className="text-center" id="Education" style={size.headerSpace}>
+          Education{" "}
+          <a href="#top" aria-hidden="true">
+            <sub style={{ fontSize: "15px" }}>
+              <i class="fa fa-arrow-up" />
+            </sub>
+          </a>
+        </h1>
+        <Row
+          style={{
+            justifyContent: "center",
+            margin: "10px",
+            marginBottom: "100px",
+          }}
+        >
+          <Fade in>
+            <Media
+              id="youknow"
+              alt="schoolGif"
+              src="./images/gifs/school.gif"
+            />
+          </Fade>
+        </Row>
+        <Row>
+          <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
+            <Media>
+              <Media left style={size.logoSpacing}>
+                <a
+                  href="https://www.newhorizons.com/"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Media
-                    src="./images/logos/trophy.png"
-                    alt="trophy"
+                    src="../images/logos/nh.png"
+                    object
                     style={size.logo}
                   />
-                </Media>
-                {text.honors}
+                </a>
               </Media>
-            </Col>
-          </Row>
-        </Container>
+              {text.newhorizons}
+            </Media>
+          </Col>
+          <Col id="listtable">
+            <Media>
+              <Media left style={size.logoSpacing}>
+                <a
+                  href="https://learn.nucamp.co/course/index.php?categoryid=3"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    src="../images/logos/nucamplogo.png"
+                    object
+                    style={size.logo}
+                  />
+                </a>
+              </Media>
+              {text.nucampExp}
+            </Media>
+          </Col>
+        </Row>
+        <br />
+        <Row>
+          <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
+            <Media>
+              <Media left style={size.logoSpacing}>
+                <a
+                  href="https://www.liberty.edu/"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    src="../images/logos/libertylogo.png"
+                    style={size.logo}
+                    object
+                  />
+                </a>
+              </Media>
+              {text.libertyExp}
+            </Media>
+          </Col>
+          <Col id="listtable">
+            <Media>
+              <Media left style={size.logoSpacing}>
+                <a
+                  href="https://greenrunhs.vbschools.com/"
+                  role="button"
+                  className="btn btn-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Media
+                    src="../images/logos/greenrun.jpg"
+                    style={size.logo}
+                    object
+                  />
+                </a>
+              </Media>
+              {text.gRunExp}
+            </Media>
+          </Col>
+        </Row>
+        {/* Honors */}
+        <h1 className="text-center" id="Honors" style={size.headerSpace}>
+          Honors And Awards
+          <a href="#top" aria-hidden="true">
+            {" "}
+            <sub style={{ fontSize: "15px" }}>
+              <i class="fa fa-arrow-up" />
+            </sub>
+          </a>
+        </h1>{" "}
+        <Row id="listtable">
+          <Col>
+            <Media>
+              <Media left className="m-auto">
+                <Media
+                  src="./images/logos/trophy.png"
+                  alt="trophy"
+                  style={size.logo}
+                />
+              </Media>
+              {text.honors}
+            </Media>
+          </Col>
+        </Row>
       </Container>
     </Jumbotron>
   );
 }
-
-const resume = {
-  marginTop: "5px",
-  marginBottom: "2rem",
-};
 
 const size = {
   logo: {
@@ -247,7 +234,8 @@ const size = {
     margin: "0",
   },
   headerSpace: {
-    marginBottom: "50px",
+    marginTop: "70px",
+    marginBottom: "30px",
     color: "goldenrod",
   },
   listtable: {
