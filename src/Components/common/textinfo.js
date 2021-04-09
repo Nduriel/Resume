@@ -381,12 +381,12 @@ export const newhorizons = (
     </li>
     <ul>
       {" "}
-      <li>
-        A+ - <i>Certified</i>
+      <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
+        A+ -- <i>Certified</i>
       </li>
       <li>Newtorking+</li>
-      <li>
-        Security+ - <i>Certificaton in progress</i>
+      <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
+        Security+ -- <i>Certificaton in progress</i>
       </li>
       <li>CCNA</li>
       <li>Server+</li>
@@ -418,28 +418,28 @@ export const nucampExp = (
 );
 
 export const libertyExp = (
-    <ul>
-      <i>
-        <h5>
-          Biology Major <br />
-          French Minor
-        </h5>
-      </i>
-      Lynchburg, VA
-      <br />
-      (2002 - 2005)
-    </ul>
+  <ul>
+    <i>
+      <h5>
+        Biology Major <br />
+        French Minor
+      </h5>
+    </i>
+    Lynchburg, VA
+    <br />
+    (2002 - 2005)
+  </ul>
 );
 
 export const gRunExp = (
-    <ul>
-      <i>
-        <h5>Advanced Diploma</h5>
-      </i>
-      Virginia Beach, VA
-      <br />
-      (1998 - 2002)
-    </ul>
+  <ul>
+    <i>
+      <h5>Advanced Diploma</h5>
+    </i>
+    Virginia Beach, VA
+    <br />
+    (1998 - 2002)
+  </ul>
 );
 
 export const honors = (

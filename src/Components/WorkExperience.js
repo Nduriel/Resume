@@ -218,17 +218,8 @@ function WorkExperience() {
         </Row>
 
         {/* Honors */}
-        {/* <h1 className="text-center" id="Honors" style={size.headerSpace}>
-          Honors And Awards
-          <a href="#top" aria-hidden="true">
-            {" "}
-            <sub style={{ fontSize: "15px" }}>
-              <i class="fa fa-arrow-up" />
-            </sub>
-          </a>
-        </h1>{" "} */}
-        <Row id="listtable" style={{ marginTop: "60px" }}>
-          <Col>
+        <Row style={{ marginTop: "60px" }}>
+          <Col id="listtable">
             <Media id="Honors">
               <Media body>
                 <Media heading id="heading" style={{ color: "goldenrod" }}>
