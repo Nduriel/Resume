@@ -48,7 +48,7 @@ function NavbarComponent() {
                   activeStyle={activeStyle}
                   to="/WorkExperience"
                 >
-                  Work Experience
+                  Experience
                 </NavLink>
               </NavItem>
               <NavItem>

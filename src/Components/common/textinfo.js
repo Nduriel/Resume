@@ -382,11 +382,11 @@ export const newhorizons = (
     <ul>
       {" "}
       <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
-        A+ -- <i>Certified</i>
+        A+
       </li>
-      <li>Newtorking+</li>
+      <li>Newtorking+ -- <i>Certification In Progress</i></li>
       <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
-        Security+ -- <i>Certificaton in progress</i>
+        Security+
       </li>
       <li>CCNA</li>
       <li>Server+</li>

@@ -7,11 +7,15 @@ function WorkExperience() {
   return (
     <Jumbotron id="main" fluid>
       <Container fluid>
-        <h5 className="text-center" id="top">
-          <a href="#WorkExp">Work Experience</a> -{" "}
-          <a href="#Education">Education</a> -{" "}
-          <a href="#Honors">Honors and Awards</a>
-        </h5>
+        <Row>
+          <Col className="text-center">
+            <h5 id="top">
+              <a href="#WorkExp">Work Experience</a> -{" "}
+              <a href="#Education">Education</a> -{" "}
+              <a href="#Honors">Honors and Awards</a>
+            </h5>
+          </Col>
+        </Row>
         {/* <Row>
         <Fade in>
         <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
@@ -19,7 +23,7 @@ function WorkExperience() {
           </Row> */}
         {/* Certs */}
         <Row>
-          <Col>
+          <Col className="text-center">
             <Fade in>
               <Media>
                 <Media body>
@@ -37,6 +41,19 @@ function WorkExperience() {
                       style={{ width: "auto", height: "120px" }}
                       alt="workgif"
                       src="./images/A+cert.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.credly.com/badges/456b010f-6ad0-4c52-9816-9dd32170eb56/public_url"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/Security+cert.png"
                     />
                   </a>
                 </Media>
