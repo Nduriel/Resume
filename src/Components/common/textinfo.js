@@ -115,7 +115,7 @@ const prLLC = (
       production.
     </li>
     <ul className="list-unstyled">
-      <u>Websites Developed:</u>
+      <i style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}>Websites Developed:</i>
       <li>
         <a
           target="_blank"
@@ -132,6 +132,15 @@ const prLLC = (
           href="https://pierrenradyllc.netlify.app/"
         >
           <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://pierreresume.com/"
+        >
+          <i style={{ color: "lightgreen" }}>PierreResume</i>
         </a>
       </li>
     </ul>
@@ -384,7 +393,9 @@ export const newhorizons = (
       <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
         A+
       </li>
-      <li>Newtorking+ -- <i>Certification In Progress</i></li>
+      <li>
+        Newtorking+ -- <i>Certification In Progress</i>
+      </li>
       <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
         Security+
       </li>
