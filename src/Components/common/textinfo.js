@@ -115,7 +115,11 @@ const prLLC = (
       production.
     </li>
     <ul className="list-unstyled">
-      <i style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}>Websites Developed:</i>
+      <i
+        style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}
+      >
+        Websites Developed:
+      </i>
       <li>
         <a
           target="_blank"
@@ -377,13 +381,23 @@ export const workExp = [
   },
 ];
 
+export const divergence = (
+  <ul>
+    <i>June 2021 - October 2021</i>
+    <li>
+      <u>Courses</u>
+    </li>
+    <ul>
+      <li> Virtualization and Cloud </li>
+      <li>Wired & Wireless Networking</li>
+      <li>Security and Pentesting</li>
+    </ul>
+  </ul>
+);
+
 export const newhorizons = (
   <ul>
-    <i>
-      <h5>New Horizons - Computer Learning Center</h5>{" "}
-    </i>
-    Online Eastern <br />
-    (01/2021 - Present)
+    January 2021 - May 2021
     <br />
     <li>
       <u>Courses</u>
@@ -394,7 +408,7 @@ export const newhorizons = (
         A+
       </li>
       <li>
-        Newtorking+ -- <i>Certification In Progress</i>
+        Networking+ -- <i>Certification In Progress</i>
       </li>
       <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
         Security+
@@ -409,13 +423,14 @@ export const newhorizons = (
 export const nucampExp = (
   <ul>
     <i>
-      <h5>FullStack Web Development - Certificate of Completion</h5>{" "}
+      <h4 style={{ textShadow: "2px 2px 2px black" }}>
+        FullStack Web Development Course
+      </h4>{" "}
     </i>
-    Online Eastern <br />
-    (08/2019 - 04/2020)
+    August 2019 - April 2020
     <br />
     <li>
-      <u>Courses Completed:</u>
+      <u>Courses</u>
     </li>
     <ul>
       {" "}
@@ -438,7 +453,7 @@ export const libertyExp = (
     </i>
     Lynchburg, VA
     <br />
-    (2002 - 2005)
+    2002 - 2005
   </ul>
 );
 
@@ -449,7 +464,7 @@ export const gRunExp = (
     </i>
     Virginia Beach, VA
     <br />
-    (1998 - 2002)
+    1998 - 2002
   </ul>
 );
 

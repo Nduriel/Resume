@@ -128,6 +128,32 @@ function WorkExperience() {
           </Fade>
         </Row>
         <Row>
+        <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
+            <Media>
+              <Media body>
+                {" "}
+                <Media heading id="heading">
+                  <h3>Divergence Academy</h3>
+                </Media>
+                <Media left style={size.logoSpacing}>
+                  <a
+                    href="https://www.divergence.one//"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      src="../images/logos/dvacademy.png"
+                      object
+                      style={size.logo}
+                    />
+                  </a>
+                </Media>
+                {text.divergence}
+              </Media>
+            </Media>
+          </Col>
           <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
             <Media>
               <Media body>
