@@ -383,10 +383,10 @@ export const workExp = [
 
 export const divergence = (
   <ul>
-    <i>June 2021 - October 2021</i>
-    <li>
-      <u>Courses</u>
+    <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
+      Cybersecurity Professional Penetration Tester
     </li>
+    <i>June 2021 - October 2021</i>
     <ul>
       <li> Virtualization and Cloud </li>
       <li>Wired & Wireless Networking</li>
@@ -397,21 +397,20 @@ export const divergence = (
 
 export const newhorizons = (
   <ul>
+    <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
+      Network Security Program:
+    </li>{" "}
     January 2021 - May 2021
-    <br />
-    <li>
-      <u>Courses</u>
-    </li>
     <ul>
       {" "}
-      <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
-        A+
+      <li>
+        A+ <i>Certified</i>
       </li>
       <li>
         Networking+ -- <i>Certification In Progress</i>
       </li>
-      <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
-        Security+
+      <li>
+        Security+ <i>Certified</i>
       </li>
       <li>CCNA</li>
       <li>Server+</li>
@@ -422,16 +421,10 @@ export const newhorizons = (
 
 export const nucampExp = (
   <ul>
-    <i>
-      <h4 style={{ textShadow: "2px 2px 2px black" }}>
-        FullStack Web Development Course
-      </h4>{" "}
-    </i>
+    <li style={{ fontWeight: "bold", textShadow: "2px 2px 2px black" }}>
+      Full Stack Web Developer Program:
+    </li>{" "}
     August 2019 - April 2020
-    <br />
-    <li>
-      <u>Courses</u>
-    </li>
     <ul>
       {" "}
       <li>HTML/CSS & JavaScript</li>
@@ -445,26 +438,20 @@ export const nucampExp = (
 
 export const libertyExp = (
   <ul>
-    <i>
-      <h5>
-        Biology Major <br />
-        French Minor
-      </h5>
-    </i>
-    Lynchburg, VA
-    <br />
+    <li>Biology Major</li>
+    <li>French Minor</li>
     2002 - 2005
+    <br />
+    Lynchburg, VA
   </ul>
 );
 
 export const gRunExp = (
   <ul>
-    <i>
-      <h5>Advanced Diploma</h5>
-    </i>
-    Virginia Beach, VA
-    <br />
+    <li>Advanced Diploma</li>
     1998 - 2002
+    <br />
+    Virginia Beach, VA
   </ul>
 );
 
