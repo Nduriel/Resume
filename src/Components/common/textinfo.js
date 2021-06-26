@@ -105,7 +105,7 @@ export const hobbies = (
 );
 
 const prLLC = (
-  <ul className="list-unstyled">
+  <ul className="a">
     <li>
       Developed website for LLC which helps stay in contact with customers as
       well as list our services.
@@ -114,7 +114,7 @@ const prLLC = (
       Have created multiple PHP parsing programs that facilitate credit card
       production.
     </li>
-    <ul className="list-unstyled">
+    <ul style={{listStyle: "square"}}>
       <i
         style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}
       >
@@ -220,7 +220,7 @@ const ffresh = (
 );
 
 const eCedar = (
-  <ul className="list-unstyled">
+  <ul className="a">
     <li>
       Performed skilled and semi-skilled repairs to existing roofs, including
       shingle replacement.
@@ -242,7 +242,7 @@ const eCedar = (
 );
 
 const marine = (
-  <ul className="list-unstyled">
+  <ul className="a">
     <li>
       Functioned as a Squad Leader, Fireteam Leader and a Breaching Instructor.
     </li>
