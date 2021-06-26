@@ -87,6 +87,10 @@ ul#footer li {
   display: inline;
 }
 
+ul.a  {
+  list-style-type: square;
+}
+
 #top {
   margin-bottom: 50px;
 }

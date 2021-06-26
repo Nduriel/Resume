@@ -152,31 +152,19 @@ const prLLC = (
 );
 
 const aux = (
-  <ul className="list-unstyled">
+  <ul className="a">
+    <li>Increased productivity of our crew by 60%.</li>
     <li>
-      Assistant Grocery Manager for two stores at the same time; Ghent and
-      Military Highway Stores.
+      Installed and repaired foundations for operating machinery and principal
+      structures and components.
     </li>
+    <li>Repaired and built over 750k$ worth of equipment for the US Navy.</li>
     <li>
-      Expertly filled roles such as cashier, stock crew, bookkeeper, sales &
-      service desk, customer service representative (CSR) and closing store
-      manager.
+      Personally awarded raises by the owner for expertise and willingness to
+      work hard.
     </li>
-    <li>
-      Assessed grocery store for cleanliness and checked proper stocking Summary
-      Skills Experience of shelves, refrigerated section and freezers.
-    </li>
-    <li>
-      Drove consistent grocery sales with effective merchandising and promotions
-      implementation.
-    </li>
-    <li>
-      Introduced grocery store employee incentive program to boost team morale.
-    </li>
-    <li>
-      Coordinated efficient restocking of grocery merchandise to meet customer
-      needs and promote consistent sales.
-    </li>
+    <li>Was on select crew sent to Hydraulic Pump training.</li>
+    <li>Earned reputation for good attendance, hard work and reliability.</li>
     <li>
       Maintained comprehensive compliance with workplace and food safety logos
       to protect staff and customers.
@@ -190,10 +178,6 @@ const aux = (
       waste and controlling shrinkage.
     </li>
     <li>
-      Delivered expert customer service to all store patrons and assisted with
-      locating desired items.
-    </li>
-    <li>
       Lead by example and took responsibility for all actions drive culture of
       performance excellence.
     </li>
@@ -201,15 +185,11 @@ const aux = (
       Streamlined operational efficiencies by coordinating staff development and
       succession planning.
     </li>
-    <li>
-      Identified and solved complex strategy problems to drive organizational
-      goals.
-    </li>
   </ul>
 );
 
 const ffresh = (
-  <ul className="list-unstyled">
+  <ul className="a">
     {" "}
     <li>
       Assistant Grocery Manager for two stores at the same time; Ghent and
@@ -221,27 +201,8 @@ const ffresh = (
       manager.
     </li>
     <li>
-      Assessed grocery store for cleanliness and checked proper stocking Summary
-      Skills Experience of shelves, refrigerated section and freezers.
-    </li>
-    <li>
-      Drove consistent grocery sales with effective merchandising and promotions
-      implementation.
-    </li>
-    <li>
-      Introduced grocery store employee incentive program to boost team morale.
-    </li>
-    <li>
       Coordinated efficient restocking of grocery merchandise to meet customer
       needs and promote consistent sales.
-    </li>
-    <li>
-      Maintained comprehensive compliance with workplace and food safety logos
-      to protect staff and customers.
-    </li>
-    <li>
-      Analyzed the store's inventory and ordered merchandise and products when
-      stock levels were low.
     </li>
     <li>
       Maximized profit by coordinating efficient team workflows, minimizing
@@ -250,14 +211,6 @@ const ffresh = (
     <li>
       Delivered expert customer service to all store patrons and assisted with
       locating desired items.
-    </li>
-    <li>
-      Lead by example and took responsibility for all actions drive culture of
-      performance excellence.
-    </li>
-    <li>
-      Streamlined operational efficiencies by coordinating staff development and
-      succession planning.
     </li>
     <li>
       Identified and solved complex strategy problems to drive organizational
@@ -283,10 +236,6 @@ const eCedar = (
     <li>
       Mopped and poured hot asphalt and tar onto roof base while applying
       asphalt and tar and gravel to roof.
-    </li>
-    <li>
-      Collected and removed debris and roofing materials to disposal areas at
-      end of every shift to maintain clean work area.
     </li>
     <li>Earned reputation for great attendance and hard work.</li>
   </ul>
@@ -388,9 +337,9 @@ export const divergence = (
     </li>
     <i>June 2021 - October 2021</i>
     <ul>
-      <li> Virtualization and Cloud </li>
-      <li>Wired & Wireless Networking</li>
-      <li>Security and Pentesting</li>
+      <li>Virtualization & Cloud - Server+, Linux+, Cloud+</li>
+      <li>Wired & Wireless Networking - Network+</li>
+      <li>Security and Pentesting - Security+, Pentest+</li>
     </ul>
   </ul>
 );
