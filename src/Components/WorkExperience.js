@@ -85,12 +85,14 @@ function WorkExperience() {
                         <Col lg={9}>{item.experience}</Col>
                         <Col lg={3} style={{ marginTop: "center" }}>
                           <Media>
+                            <a href={item.imageUrl}>
                             <Media
                               object
                               src={item.image}
                               style={size.logo}
                               alt="worklogo"
                             />
+                          </a>
                           </Media>
                         </Col>
                       </Row>

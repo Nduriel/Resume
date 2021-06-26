@@ -114,7 +114,7 @@ const prLLC = (
       Have created multiple PHP parsing programs that facilitate credit card
       production.
     </li>
-    <ul style={{listStyle: "square"}}>
+    <ul style={{ listStyle: "square" }}>
       <i
         style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}
       >
@@ -286,6 +286,7 @@ export const workExp = [
   {
     id: 0,
     image: "../images/logos/prlogo.png",
+    imageUrl: "https://www.pierreradyllc.com/",
     title: "Pierre&RadyLLC",
     position: "Software Developer/ PHP Engineer",
     dates: "(08/2019 - Present)",
@@ -295,6 +296,7 @@ export const workExp = [
   {
     id: 1,
     image: "../images/logos/auxiliarysystems.jpg",
+    imageUrl: "http://www.auxsysinc.com/",
     title: "Auxilary Systems",
     position: "Outside Machinist",
     dates: "(07/2018 - 08/2019)",
@@ -313,6 +315,7 @@ export const workExp = [
   {
     id: 3,
     image: "../images/logos/eastcoastcedarlogo.jpg",
+    imageUrl: "https://www.indeed.com/cmp/East-Coast-Cedar/reviews",
     title: "East Coast Cedar",
     position: "Roofing Assistant",
     location: "Virginia Beach, VA",
@@ -322,6 +325,8 @@ export const workExp = [
   {
     id: 4,
     image: "../images/logos/usmclogo.png",
+    imageUrl:
+      "https://www.marforres.marines.mil/Units/4th-Marine-Division/4th-Combat-Engineer-Battalion/Company-C/",
     title: "United States Marine Corps",
     position: "1371 Combat Engineer",
     location: "Lynchburg, Virginia",
