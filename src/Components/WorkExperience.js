@@ -71,7 +71,7 @@ function WorkExperience() {
               return (
                 <Fade>
                   <Media key={item.id} className="mt-3">
-                    <Media body>
+                    <Media body style={{marginLeft: 5}}>
                       <Media heading>
                         <h2 id="heading">{item.title}</h2>
                       </Media>
