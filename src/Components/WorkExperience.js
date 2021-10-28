@@ -56,6 +56,19 @@ function WorkExperience() {
                       src="./images/Security+cert.png"
                     />
                   </a>
+                  <a
+                    href="https://www.credly.com/badges/e1790638-acb0-4541-a0ae-bc7af8aeca61/public_url"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/Network+Cert.png"
+                    />
+                  </a>
                 </Media>
               </Media>
             </Fade>
