@@ -69,6 +69,32 @@ function WorkExperience() {
                       src="./images/Network+Cert.png"
                     />
                   </a>
+                  <a
+                    href="https://www.credly.com/badges/f76db032-6910-4431-9205-6f14c044abcb/public_url"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/CIOSlogo.png"
+                    />
+                  </a>
+                  <a
+                    href="https://www.credly.com/badges/aebbeb5f-7f4c-451e-be5a-1d5b6bd426dc/public_url"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="workgif"
+                      src="./images/CSISlogo.png"
+                    />
+                  </a>
                 </Media>
               </Media>
             </Fade>
