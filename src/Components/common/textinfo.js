@@ -151,6 +151,22 @@ const prLLC = (
   </ul>
 );
 
+const lexisNexis = (
+//   LexisNexis Risk Solutions － Boca Raton, FL
+// Analyzed network issues, developing fixes and troubleshooting problems to maintain
+// organizational effectiveness.
+// Established and maintained network systems using networking principles.
+// Provided effective resolutions to issues and escalated problems with knowledgeable
+// support and quality service.
+// Maintained software implementations to meet regulatory and organizational
+// guidelines.
+  <ul className="a">
+    <li> Analyzed network issues, developing fixes and troubleshooting problems to maintain
+         organizational effectiveness.
+    </li>
+  </ul>
+);
+
 const aux = (
   <ul className="a">
     <li>Increased productivity of our crew by 60%.</li>
