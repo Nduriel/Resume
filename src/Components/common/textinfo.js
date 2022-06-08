@@ -152,17 +152,21 @@ const prLLC = (
 );
 
 const lexisNexis = (
-//   LexisNexis Risk Solutions － Boca Raton, FL
-// Analyzed network issues, developing fixes and troubleshooting problems to maintain
-// organizational effectiveness.
-// Established and maintained network systems using networking principles.
-// Provided effective resolutions to issues and escalated problems with knowledgeable
-// support and quality service.
-// Maintained software implementations to meet regulatory and organizational
-// guidelines.
   <ul className="a">
-    <li> Analyzed network issues, developing fixes and troubleshooting problems to maintain
-         organizational effectiveness.
+    <li>
+      Analyzed network issues, developing fixes and troubleshooting problems to
+      maintain organizational effectiveness.
+    </li>
+    <li>
+      Established and maintained network systems using networking principles.
+    </li>
+    <li>
+      Provided effective resolutions to various issues and escalated problems
+      with expedient support and quality solutions.
+    </li>
+    <li>
+      Maintained software implementations to meet regulatory and organizational
+      guidelines.
     </li>
   </ul>
 );
@@ -311,6 +315,16 @@ export const workExp = [
   },
   {
     id: 1,
+    image: "../images/logos/lexisNexis.png",
+    imageUrl: "http://www.lexisnexis.com/",
+    title: "Key Technical - Lexis Nexis Contract",
+    position: "Network Operations Center (NOC Technician)",
+    dates: "(10/2021 - 01/2022)",
+    location: "Boca Raton, FL",
+    experience: lexisNexis,
+  },
+  {
+    id: 2,
     image: "../images/logos/auxiliarysystems.jpg",
     imageUrl: "http://www.auxsysinc.com/",
     title: "Auxilary Systems",
@@ -320,7 +334,7 @@ export const workExp = [
     experience: aux,
   },
   {
-    id: 2,
+    id: 3,
     image: "../images/logos/farmfresh.png",
     title: "Farm Fresh Supermarkets",
     position: "Assistant Grocery Manager",
@@ -329,7 +343,7 @@ export const workExp = [
     experience: ffresh,
   },
   {
-    id: 3,
+    id: 4,
     image: "../images/logos/eastcoastcedarlogo.jpg",
     imageUrl: "https://www.indeed.com/cmp/East-Coast-Cedar/reviews",
     title: "East Coast Cedar",
@@ -339,7 +353,7 @@ export const workExp = [
     experience: eCedar,
   },
   {
-    id: 4,
+    id: 5,
     image: "../images/logos/usmclogo.png",
     imageUrl:
       "https://www.marforres.marines.mil/Units/4th-Marine-Division/4th-Combat-Engineer-Battalion/Company-C/",
