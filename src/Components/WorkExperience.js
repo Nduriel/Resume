@@ -19,11 +19,11 @@ function WorkExperience() {
 
         {/* Certs */}
 
-        <Row>
-          <Col className="text-center">
-            <Media heading>
-              <span style={size.headerSpace}>Certifications</span>
-            </Media>
+        <Row id="certs" className="justify-content-md-center">
+          <Col lg={12} className="text-center">
+            <h1 className="text-center" style={size.headerSpace}>
+              Work Experience
+            </h1>
             <br />
             <Fade in>
               <Media>
@@ -42,98 +42,12 @@ function WorkExperience() {
                           style={{ width: "auto", height: "120px" }}
                           alt={item.altText}
                           src={item.image}
-                        />{" "}
+                        />
                       </a>
                     </Media>
                   );
                 })}
               </Media>
-
-              {/* <Media>
-                <Media body>
-                  <Media heading>
-                    <span style={size.headerSpace}>Certifications</span>
-                  </Media>
-                  <a
-                    href="https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="A+Cert"
-                      src="./images/A+cert.png"
-                    />
-                  </a>
-                  <a
-                    href="https://www.credly.com/badges/456b010f-6ad0-4c52-9816-9dd32170eb56/public_url"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="Secruty+Cert"
-                      src="./images/Security+cert.png"
-                    />
-                  </a>
-                  <a
-                    href="https://www.credly.com/badges/e1790638-acb0-4541-a0ae-bc7af8aeca61/public_url"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="Network+Cert"
-                      src="./images/Network+Cert.png"
-                    />
-                  </a>
-                  <a
-                    href="https://www.credly.com/badges/f76db032-6910-4431-9205-6f14c044abcb/public_url"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="workgif"
-                      src="./images/CIOSlogo.png"
-                    />
-                  </a>
-                  <a
-                    href="https://www.credly.com/badges/aebbeb5f-7f4c-451e-be5a-1d5b6bd426dc/public_url"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="workgif"
-                      src="./images/CSISlogo.png"
-                    />
-                  </a>
-                  <a
-                    href="https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url"
-                    role="button"
-                    className="btn btn-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Media
-                      style={{ width: "auto", height: "120px" }}
-                      alt="azlogo"
-                      src="./images/azlogo.png"
-                    />
-                  </a>
-                </Media>
-              </Media> */}
             </Fade>
           </Col>
         </Row>
