@@ -312,6 +312,46 @@ const marine = (
   </ul>
 );
 
+
+export const certificationsImage = [
+  {
+    id: 0,
+    image: "./images/A+cert.png",
+    imageUrl: "https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3",
+    altText: "A+"
+  },
+  {
+    id: 0,
+    image: "./images/Security+cert.png",
+    imageUrl: "https://www.credly.com/badges/456b010f-6ad0-4c52-9816-9dd32170eb56/public_url",
+    altText: "Security+"
+  },
+  {
+    id: 0,
+    image: "./images/Network+Cert.png",
+    imageUrl: "https://www.credly.com/badges/e1790638-acb0-4541-a0ae-bc7af8aeca61/public_url",
+    altText: "Network+"
+  },
+  {
+    id: 0,
+    image: "./images/CIOSlogo.png",
+    imageUrl: "https://www.credly.com/badges/f76db032-6910-4431-9205-6f14c044abcb/public_url",
+    altText: "CIOS"
+  },
+  {
+    id: 0,
+    image: "./images/CSISlogo.png",
+    imageUrl: "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
+    altText: "CSIS"
+  },
+  {
+    id: 0,
+    image: "./images/azlogo.png",
+    imageUrl: "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
+    altText: "Azure900"
+  }
+];
+
 export const workExp = [
   {
     id: 0,

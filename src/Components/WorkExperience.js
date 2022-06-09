@@ -16,16 +16,40 @@ function WorkExperience() {
             </h5>
           </Col>
         </Row>
-        {/* <Row>
-        <Fade in>
-        <Media id="youknow" alt="workgif" src="./images/gifs/work.gif" />
-        </Fade>
-          </Row> */}
+
         {/* Certs */}
+
         <Row>
           <Col className="text-center">
+            <Media heading>
+              <span style={size.headerSpace}>Certifications</span>
+            </Media>
+            <br />
             <Fade in>
               <Media>
+                {text.certificationsImage.map((item) => {
+                  return (
+                    <Media body>
+                      <a
+                        href={item.imageUrl}
+                        src={item.imageUrl}
+                        role="button"
+                        className="btn btn-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Media
+                          style={{ width: "auto", height: "120px" }}
+                          alt={item.altText}
+                          src={item.image}
+                        />{" "}
+                      </a>
+                    </Media>
+                  );
+                })}
+              </Media>
+
+              {/* <Media>
                 <Media body>
                   <Media heading>
                     <span style={size.headerSpace}>Certifications</span>
@@ -39,7 +63,7 @@ function WorkExperience() {
                   >
                     <Media
                       style={{ width: "auto", height: "120px" }}
-                      alt="workgif"
+                      alt="A+Cert"
                       src="./images/A+cert.png"
                     />
                   </a>
@@ -52,7 +76,7 @@ function WorkExperience() {
                   >
                     <Media
                       style={{ width: "auto", height: "120px" }}
-                      alt="workgif"
+                      alt="Secruty+Cert"
                       src="./images/Security+cert.png"
                     />
                   </a>
@@ -65,7 +89,7 @@ function WorkExperience() {
                   >
                     <Media
                       style={{ width: "auto", height: "120px" }}
-                      alt="workgif"
+                      alt="Network+Cert"
                       src="./images/Network+Cert.png"
                     />
                   </a>
@@ -95,12 +119,27 @@ function WorkExperience() {
                       src="./images/CSISlogo.png"
                     />
                   </a>
+                  <a
+                    href="https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url"
+                    role="button"
+                    className="btn btn-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Media
+                      style={{ width: "auto", height: "120px" }}
+                      alt="azlogo"
+                      src="./images/azlogo.png"
+                    />
+                  </a>
                 </Media>
-              </Media>
+              </Media> */}
             </Fade>
           </Col>
         </Row>
+
         {/* Work Experience */}
+
         <h1 className="text-center" style={size.headerSpace}>
           Work Experience
         </h1>
