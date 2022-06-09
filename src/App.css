@@ -30,9 +30,11 @@
 }
 
 #certs {
+  width: auto;
   flex-direction: row;
   flex-wrap: wrap;
   flex-shrink: inherit;
+  max-width: 100%;
 }
 
 .carousel-item > img {

@@ -19,14 +19,14 @@ function WorkExperience() {
 
         {/* Certs */}
 
-        <Row id="certs" className="justify-content-md-center">
-          <Col lg={12} className="text-center">
+        <Row className="justify-content-md-center">
+          <Col lg={10} className="text-center">
             <h1 className="text-center" style={size.headerSpace}>
-              Work Experience
+              Certifications
             </h1>
             <br />
             <Fade in>
-              <Media>
+              <Media  id="certs" >
                 {text.certificationsImage.map((item) => {
                   return (
                     <Media body>
