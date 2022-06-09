@@ -110,7 +110,7 @@ function WorkExperience() {
               return (
                 <Fade>
                   <Media key={item.id} className="mt-3">
-                    <Media body style={{marginLeft: 5}}>
+                    <Media body style={{ marginLeft: 5 }}>
                       <Media heading>
                         <h2 id="heading">{item.title}</h2>
                       </Media>
@@ -124,14 +124,21 @@ function WorkExperience() {
                         <Col lg={9}>{item.experience}</Col>
                         <Col lg={3} style={{ marginTop: "center" }}>
                           <Media>
-                            <a href={item.imageUrl}>
-                            <Media
-                              object
-                              src={item.image}
-                              style={size.logo}
-                              alt="worklogo"
-                            />
-                          </a>
+                            <a
+                              href={item.imageUrl}
+                              src={item.imageUrl}
+                              role="button"
+                              className="btn btn-link"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Media
+                                object
+                                src={item.image}
+                                style={size.logo}
+                                alt="worklogo"
+                              />
+                            </a>
                           </Media>
                         </Col>
                       </Row>
@@ -169,7 +176,7 @@ function WorkExperience() {
           </Fade>
         </Row>
         <Row>
-        <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
+          <Col id="listtable" xs={12} sm={12} md={6} lg={6}>
             <Media>
               <Media body>
                 {" "}
