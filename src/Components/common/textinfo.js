@@ -106,13 +106,23 @@ export const hobbies = (
 
 const prLLC = (
   <ul className="a">
+    <li>Creating and implementing various scripts using JS, php, xml, JSON.</li>
     <li>
-      Developed website for LLC which helps stay in contact with customers as
-      well as list our services.
+      Using Excel to format, troubleshoot, and modify data. Compare those values
+      with various applications from our customers
+      <br /> [FedEX - Shipping Manager; USPS - shippsi/Stamps.com api]
     </li>
     <li>
-      Have created multiple PHP parsing programs that facilitate credit card
-      production.
+      Modified existing software systems to enhance performance and add new
+      features.
+    </li>
+    <li>
+      Implemented and tested enhancement feature requests to improve product
+      functionality and extend performance.
+    </li>
+    <li>
+      Informed project manager of milestone updates and provided detailed
+      project reports.
     </li>
     <ul style={{ listStyle: "square" }}>
       <i
