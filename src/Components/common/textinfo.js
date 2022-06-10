@@ -87,8 +87,7 @@ export const earlylife = (
       <p>
         Growing up, I loved to draw, read and play basketball. During my time in
         Green Run High School, I was in the marching band and played the
-        Baritone (Euphonium). My favorite subjects had always been Science and
-        French.
+        Baritone (Euphonium). My favorite subject growing up was Science.
       </p>
     </Media>
   </Media>
@@ -148,9 +147,7 @@ export const hobbies = (
       </p>
       <p>
         I enjoy travelling as well. So far, I have been to Slovakia, Budapest,
-        France (2x), Niger Africa (2x), Cancun and Belize Mexico. I plan to
-        visit Bratislava Slovakia in 2021 when the CoronaVirus pandemic is more
-        under control.
+        France (2x), Niger Africa (2x), Cancun and Belize Mexico. This summer, I will visit Swizterland for the first time!
       </p>
     </Media>
   </Media>
