@@ -26,7 +26,7 @@ function WorkExperience() {
             </h1>
             <br />
             <Fade in>
-              <Media  id="certs" >
+              <Media id="certs">
                 {text.certificationsImage.map((item) => {
                   return (
                     <Media body>
@@ -39,7 +39,7 @@ function WorkExperience() {
                         rel="noopener noreferrer"
                       >
                         <Media
-                          style={{ width: "auto", height: "120px" }}
+                          id="certBorder"
                           alt={item.altText}
                           src={item.image}
                         />

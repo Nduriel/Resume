@@ -11,6 +11,7 @@ import {
   CarouselControl,
   CarouselIndicators,
 } from "reactstrap";
+import * as text from "./common/textinfo";
 
 function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -86,64 +87,7 @@ function Home() {
               </Carousel>
             </FadeTransform>
           </Col>
-          <Col lg={6} md={12} sm={12}>
-            <p className="infobox">
-              &nbsp;&nbsp;Hello! My Name is Jean-Eric Pierre-Louis "Pierre" and
-              I am a United States Marine Corps Veteran and Web Developer. This
-              page will help you get to know about me, my desires and my life! I
-              hope you enjoy!
-            </p>
-            <p className="infobox">
-              &nbsp;&nbsp;I am Full Stack Web Developer and recent graduate from
-              Nucamp Coding Bootcamp. Since graduation, my skills have been put
-              to the test creating and managing various websites including{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://polishedBymia.com"
-              >
-                <i style={{ color: "#e60073" }}>Polished By Mia</i>
-              </a>{" "}
-              and{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://pierrenradyllc.netlify.app/"
-              >
-                <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
-              </a>
-              &nbsp;<i>(in development)</i>.
-            </p>
-            <p className="infobox">
-              &nbsp;&nbsp;My primary focuses is React, React Native, JavaScript
-              and HTML/CSS. I also create various parsing programs used to help
-              facilitate credit card production for{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://pierrenradyllc.netlify.app/"
-              >
-                <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
-              </a>
-              . Currently, I study with&nbsp;
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://app.pluralsight.com/"
-              >
-                Plural Sight
-              </a>
-              &nbsp;, and attend{" "}
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://newhorizons.com/"
-              >
-                <i style={{ color: "limegreen" }}>New Horizons</i>
-              </a>
-              &nbsp; where I am studying for various IT certifications.
-            </p>
-          </Col>
+          {text.intro}
         </Row>
       </Container>
     </Jumbotron>

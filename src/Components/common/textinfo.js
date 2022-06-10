@@ -1,5 +1,5 @@
 import React from "react";
-import { Media } from "reactstrap";
+import { Media, Col } from "reactstrap";
 
 const size = {
   image: {
@@ -10,6 +10,58 @@ const size = {
     boxShadow: "2px 2px 4px grey",
   },
 };
+
+export const intro = (
+  <Col lg={6} md={12} sm={12}>
+    <p className="infobox">
+      &nbsp;&nbsp;Hello! My Name is Jean-Eric Pierre-Louis "Pierre" and I am a
+      United States Marine Corps Veteran and Web Developer. This page will help
+      you get to know about me, my desires and my life! I hope you enjoy!
+    </p>
+    <p className="infobox">
+      &nbsp;&nbsp;I am Full Stack Web Developer and recent graduate from Nucamp
+      Coding Bootcamp. Since graduation, my skills have been put to the test
+      creating and managing various websites including{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://polishedBymia.com"
+      >
+        <i style={{ color: "#e60073" }}>Polished By Mia</i>
+      </a>{" "}
+      and{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://pierrenradyllc.netlify.app/"
+      >
+        <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+      </a>
+      &nbsp;<i>(in development)</i>.
+    </p>
+    <p className="infobox">
+      &nbsp;&nbsp;My primary focuses is React, React Native, JavaScript and
+      HTML/CSS. I also create various parsing programs used to help facilitate
+      credit card production for{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://pierrenradyllc.netlify.app/"
+      >
+        <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+      </a>
+      . Currently, I study with&nbsp;
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://app.pluralsight.com/"
+      >
+        Plural Sight
+      </a>
+      &nbsp;, and attend plan to attend school for more Full Stack Web Development training. 
+    </p>
+  </Col>
+);
 
 export const earlylife = (
   <Media>
@@ -26,11 +78,11 @@ export const earlylife = (
         <u>Early Life</u>
       </Media>
       <p>
-        My full name is Jean-Eric Andr'e Pierre-Louis and I was born in
-        Charleston, South Carolina. Around the age of 5, my family moved to
-        Groton, Conneticut. We were, and still are a military family. When I
-        turned 13, my father got another duty station in Virgina Beach, Va. My
-        parents are still in Virgina Beach to this day.
+        My name is Jean-Eric Andr'e Pierre-Louis and I was born in Charleston,
+        South Carolina. Around the age of 5, my family moved to Groton,
+        Conneticut. We were, and still are a military family. When I turned 13,
+        my father got another duty station in Virgina Beach, Va. My parents are
+        still in Virgina Beach to this day.
       </p>
       <p>
         Growing up, I loved to draw, read and play basketball. During my time in
@@ -312,44 +364,49 @@ const marine = (
   </ul>
 );
 
-
 export const certificationsImage = [
   {
     id: 0,
     image: "./images/A+cert.png",
-    imageUrl: "https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3",
-    altText: "A+"
+    imageUrl:
+      "https://www.youracclaim.com/badges/8f8cee10-650a-4d4b-9c14-8656988b28f3",
+    altText: "A+",
   },
   {
     id: 0,
     image: "./images/Security+cert.png",
-    imageUrl: "https://www.credly.com/badges/456b010f-6ad0-4c52-9816-9dd32170eb56/public_url",
-    altText: "Security+"
+    imageUrl:
+      "https://www.credly.com/badges/456b010f-6ad0-4c52-9816-9dd32170eb56/public_url",
+    altText: "Security+",
   },
   {
     id: 0,
     image: "./images/Network+Cert.png",
-    imageUrl: "https://www.credly.com/badges/e1790638-acb0-4541-a0ae-bc7af8aeca61/public_url",
-    altText: "Network+"
+    imageUrl:
+      "https://www.credly.com/badges/e1790638-acb0-4541-a0ae-bc7af8aeca61/public_url",
+    altText: "Network+",
   },
   {
     id: 0,
     image: "./images/CIOSlogo.png",
-    imageUrl: "https://www.credly.com/badges/f76db032-6910-4431-9205-6f14c044abcb/public_url",
-    altText: "CIOS"
+    imageUrl:
+      "https://www.credly.com/badges/f76db032-6910-4431-9205-6f14c044abcb/public_url",
+    altText: "CIOS",
   },
   {
     id: 0,
     image: "./images/CSISlogo.png",
-    imageUrl: "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
-    altText: "CSIS"
+    imageUrl:
+      "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
+    altText: "CSIS",
   },
   {
     id: 0,
     image: "./images/azlogo.png",
-    imageUrl: "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
-    altText: "Azure900"
-  }
+    imageUrl:
+      "https://www.credly.com/badges/2cb617ba-fc24-4010-bbe1-c56487d727aa/public_url",
+    altText: "Azure900",
+  },
 ];
 
 export const workExp = [

@@ -22,8 +22,8 @@
   background-color: black;
   width: 100%;
   position: relative;
-  border: 9px solid;
-  border-style: ridge;
+  border: 7px solid;
+  border-style: inset;
   border-color: rgb(80, 80, 80);
   box-shadow: 8px 8px 10px rgb(31, 29, 29);
   box-sizing: border-box;
@@ -37,6 +37,23 @@
   max-width: 100%;
 }
 
+#certBorder {
+  border: groove black 1px;
+  background-color: black;
+  box-shadow: 2px 2px 6px lightblue;
+  border-radius: 5%;
+  width: auto;
+  height: 120px;
+  /* box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa; */
+}
 .carousel-item > img {
   width: auto;
   position: relative;
