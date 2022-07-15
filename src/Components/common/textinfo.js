@@ -210,6 +210,14 @@ const prLLC = (
   </ul>
 );
 
+const amanoMc = (
+<ul className="a">
+  <li>
+    <i>System Support Specialist role description</i>
+  </li>
+</ul>
+);
+
 const lexisNexis = (
   <ul className="a">
     <li>
@@ -407,6 +415,17 @@ export const certificationsImage = [
 ];
 
 export const workExp = [
+  // {
+  //   id: 6,
+  //   image: "../images/logos/amanomc.png",
+  //   imageUrl:
+  //   "https://www.amanomcgann.com/",
+  //   title: "Amano McGann",
+  //   position: "System Support Specialist",
+  //   location: "Pompano Beach, Florida",
+  //   dates: "(08/2022 - Present)",
+  //   experience: amanoMc
+  // },
   {
     id: 0,
     image: "../images/logos/prlogo.png",
@@ -464,7 +483,7 @@ export const workExp = [
     title: "United States Marine Corps",
     position: "1371 Combat Engineer",
     location: "Lynchburg, Virginia",
-    dates: " (02/2006 - 02/2012)",
+    dates: "(02/2006 - 02/2012)",
     experience: marine,
   },
 ];
