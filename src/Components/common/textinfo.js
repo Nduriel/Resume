@@ -58,7 +58,8 @@ export const intro = (
       >
         Plural Sight
       </a>
-      &nbsp;, and attend plan to attend school for more Full Stack Web Development training. 
+      &nbsp;, and attend plan to attend school for more Full Stack Web
+      Development training.
     </p>
   </Col>
 );
@@ -147,7 +148,8 @@ export const hobbies = (
       </p>
       <p>
         I enjoy travelling as well. So far, I have been to Slovakia, Budapest,
-        France (2x), Niger Africa (2x), Cancun and Belize Mexico. This summer, I will visit Swizterland for the first time!
+        France (2x), Niger Africa (2x), Cancun and Belize Mexico. This summer, I
+        will visit Swizterland for the first time!
       </p>
     </Media>
   </Media>
@@ -211,11 +213,11 @@ const prLLC = (
 );
 
 const amanoMc = (
-<ul className="a">
-  <li>
-    <i>System Support Specialist role description</i>
-  </li>
-</ul>
+  <ul className="a">
+    <li>
+      <i>System Support Specialist role description</i>
+    </li>
+  </ul>
 );
 
 const lexisNexis = (
@@ -415,19 +417,18 @@ export const certificationsImage = [
 ];
 
 export const workExp = [
-  // {
-  //   id: 6,
-  //   image: "../images/logos/amanomc.png",
-  //   imageUrl:
-  //   "https://www.amanomcgann.com/",
-  //   title: "Amano McGann",
-  //   position: "System Support Specialist",
-  //   location: "Pompano Beach, Florida",
-  //   dates: "(08/2022 - Present)",
-  //   experience: amanoMc
-  // },
   {
     id: 0,
+    image: "../images/logos/amanomc.png",
+    imageUrl: "https://www.amanomcgann.com/",
+    title: "Amano McGann",
+    position: "System Support Specialist",
+    location: "Pompano Beach, Florida",
+    dates: "(08/2022 - Present)",
+    experience: amanoMc,
+  },
+  {
+    id: 1,
     image: "../images/logos/prlogo.png",
     imageUrl: "https://www.pierreradyllc.com/",
     title: "Pierre&RadyLLC",
@@ -437,7 +438,7 @@ export const workExp = [
     experience: prLLC,
   },
   {
-    id: 1,
+    id: 2,
     image: "../images/logos/lexisNexis.png",
     imageUrl: "http://www.lexisnexis.com/",
     title: "Key Technical - Lexis Nexis Contract",
@@ -447,7 +448,7 @@ export const workExp = [
     experience: lexisNexis,
   },
   {
-    id: 2,
+    id: 3,
     image: "../images/logos/auxiliarysystems.jpg",
     imageUrl: "http://www.auxsysinc.com/",
     title: "Auxilary Systems",
@@ -457,7 +458,7 @@ export const workExp = [
     experience: aux,
   },
   {
-    id: 3,
+    id: 4,
     image: "../images/logos/farmfresh.png",
     title: "Farm Fresh Supermarkets",
     position: "Assistant Grocery Manager",
@@ -466,7 +467,7 @@ export const workExp = [
     experience: ffresh,
   },
   {
-    id: 4,
+    id: 5,
     image: "../images/logos/eastcoastcedarlogo.jpg",
     imageUrl: "https://www.indeed.com/cmp/East-Coast-Cedar/reviews",
     title: "East Coast Cedar",
@@ -476,7 +477,7 @@ export const workExp = [
     experience: eCedar,
   },
   {
-    id: 5,
+    id: 6,
     image: "../images/logos/usmclogo.png",
     imageUrl:
       "https://www.marforres.marines.mil/Units/4th-Marine-Division/4th-Combat-Engineer-Battalion/Company-C/",
