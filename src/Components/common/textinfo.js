@@ -215,7 +215,7 @@ const prLLC = (
 const amanoMc = (
   <ul className="a">
     <li>
-      <i>System Support Specialist role description</i>
+      <i>System Support Specialist</i>
     </li>
   </ul>
 );
