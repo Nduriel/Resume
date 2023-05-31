@@ -436,7 +436,7 @@ export const workExp = [
     title: "Amano McGann",
     position: "System Support Specialist",
     location: "Pompano Beach, Florida",
-    dates: "(08/2022 - Present)",
+    dates: "(08/2022 - 03/2023)",
     experience: amanoMc,
   },
   {
