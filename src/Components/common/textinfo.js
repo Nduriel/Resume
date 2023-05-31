@@ -215,8 +215,20 @@ const prLLC = (
 const amanoMc = (
   <ul className="a">
     <li>
-      <i>System Support Specialist</i>
+      Monitored various parking systems including the new Software for Amano
+      ONE.
     </li>
+    <li>
+      Performed monthly system software check for premium customer based on a
+      personally developed checklist.
+    </li>
+    <li>
+      When required, traveled to sites that were offfline and/or incacessible
+      through network. Diagnosed technical and hardware issues to get customer
+      online as soon as possible.
+    </li>
+    <li>Trained employees and customers on Amano software and hardware.</li>
+    <li>Assisted technicians remotely and onsite.</li>
   </ul>
 );
 
