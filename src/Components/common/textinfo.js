@@ -212,6 +212,84 @@ const prLLC = (
   </ul>
 );
 
+const banyan = (
+  <ul className="a">
+    <li>
+      Installed and configured new hardware, software, and peripheral devices.
+    </li>
+    <li>
+      Provided technical support to internal customers in a timely manner.
+    </li>
+    <li>
+      Assisted users with troubleshooting computer issues via remote desktop
+      sessions.
+    </li>
+    <li>
+      Created user accounts and managed access privileges on networked systems
+      using Active Directory, Kipu, Trac9, as well as various other
+      applications.
+    </li>
+    <li>
+      Maintained various databases of customer information and service requests.
+    </li>
+    <li>
+      Documented all help desk activities, including customer inquiries,
+      resolutions, and system configurations using ,<ii>helpdesk</ii>.
+    </li>
+    <li>
+      Performed regular maintenance tasks, such as virus scans, system backups,
+      and disk cleanups.
+    </li>
+    <li>
+      Resolved complex technical problems by researching solutions online or
+      consulting with subject matter experts.
+    </li>
+    <li>
+      Monitored server performance metrics to ensure optimal operation of IT
+      services.
+    </li>
+    <li>Provided assistance with mobile device setup and configuration.</li>
+    <li>
+      Managed inventory of IT equipment, such as laptops, printers, and other
+      equipment using SnipeIT.
+    </li>
+    {/* <ul style={{ listStyle: "square" }}>
+      <i
+        style={{ textShadow: "2px 2px black", borderBottom: "2px solid grey" }}
+      >
+        Websites Developed:
+      </i>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://polishedBymia.com"
+        >
+          <i style={{ color: "#e60073" }}>Polished By Mia</i>
+        </a>{" "}
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://pierrenradyllc.netlify.app/"
+        >
+          <i style={{ color: "gold" }}>Pierre&RadyLLC</i>
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://pierreresume.com/"
+        >
+          <i style={{ color: "lightgreen" }}>PierreResume</i>
+        </a>
+      </li>
+    </ul> */}
+  </ul>
+);
+
 const amanoMc = (
   <ul className="a">
     <li>
@@ -431,6 +509,16 @@ export const certificationsImage = [
 export const workExp = [
   {
     id: 0,
+    image: "../images/logos/banyan.png",
+    imageUrl: "https://www.banyantreatmentcenter.com/",
+    title: "Banyan Treatment Centers",
+    position: "IT Helpdesk Technician",
+    location: "Pompano Beach, Florida",
+    dates: "(08/2023 - Present)",
+    experience: banyan,
+  },
+  {
+    id: 1,
     image: "../images/logos/amanomc.png",
     imageUrl: "https://www.amanomcgann.com/",
     title: "Amano McGann",
@@ -440,7 +528,7 @@ export const workExp = [
     experience: amanoMc,
   },
   {
-    id: 1,
+    id: 2,
     image: "../images/logos/prlogo.png",
     imageUrl: "https://www.pierreradyllc.com/",
     title: "Pierre&RadyLLC",
@@ -450,7 +538,7 @@ export const workExp = [
     experience: prLLC,
   },
   {
-    id: 2,
+    id: 3,
     image: "../images/logos/lexisNexis.png",
     imageUrl: "http://www.lexisnexis.com/",
     title: "Key Technical - Lexis Nexis Contract",
@@ -460,7 +548,7 @@ export const workExp = [
     experience: lexisNexis,
   },
   {
-    id: 3,
+    id: 4,
     image: "../images/logos/auxiliarysystems.jpg",
     imageUrl: "http://www.auxsysinc.com/",
     title: "Auxilary Systems",
@@ -470,7 +558,7 @@ export const workExp = [
     experience: aux,
   },
   {
-    id: 4,
+    id: 5,
     image: "../images/logos/farmfresh.png",
     title: "Farm Fresh Supermarkets",
     position: "Assistant Grocery Manager",
@@ -479,7 +567,7 @@ export const workExp = [
     experience: ffresh,
   },
   {
-    id: 5,
+    id: 6,
     image: "../images/logos/eastcoastcedarlogo.jpg",
     imageUrl: "https://www.indeed.com/cmp/East-Coast-Cedar/reviews",
     title: "East Coast Cedar",
@@ -489,7 +577,7 @@ export const workExp = [
     experience: eCedar,
   },
   {
-    id: 6,
+    id: 7,
     image: "../images/logos/usmclogo.png",
     imageUrl:
       "https://www.marforres.marines.mil/Units/4th-Marine-Division/4th-Combat-Engineer-Battalion/Company-C/",
