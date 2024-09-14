@@ -509,7 +509,7 @@ export const certificationsImage = [
 export const workExp = [
   {
     id: 0,
-    image: "../images/logos/banyan.png",
+    image: "../images/logos/banyanlogo.png",
     imageUrl: "https://www.banyantreatmentcenter.com/",
     title: "Banyan Treatment Centers",
     position: "IT Helpdesk Technician",
